@@ -1,0 +1,280 @@
+{
+  "version": 2,
+  "dgSpecHash": "IJ2og8w3bLw=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Лиза\\VSCode projects\\courseworkWeb\\courseworkWeb.Server\\courseworkWeb.Server.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.ar.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ar/2.14.1/humanizer.core.ar.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.bg.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.bg/2.14.1/humanizer.core.bg.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.it.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.it/2.14.1/humanizer.core.it.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.he.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.he/2.14.1/humanizer.core.he.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.da.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.da/2.14.1/humanizer.core.da.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.fa.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.fa/2.14.1/humanizer.core.fa.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.ms-MY.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ms-my/2.14.1/humanizer.core.ms-my.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.mt.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.mt/2.14.1/humanizer.core.mt.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.af.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.fr.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.fr/2.14.1/humanizer.core.fr.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.nb-NO.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.nb-no/2.14.1/humanizer.core.nb-no.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.id.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.id/2.14.1/humanizer.core.id.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.bn-BD.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.bn-bd/2.14.1/humanizer.core.bn-bd.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.is.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.is/2.14.1/humanizer.core.is.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.cs.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.cs/2.14.1/humanizer.core.cs.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Microsoft.Extensions.DependencyInjection.8.0.1\" из \"https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Microsoft.IdentityModel.Abstractions.6.22.0\" из \"https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.hy.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.hy/2.14.1/humanizer.core.hy.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.el.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.el/2.14.1/humanizer.core.el.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.lv.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.lv/2.14.1/humanizer.core.lv.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.de.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.de/2.14.1/humanizer.core.de.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.fi-FI.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.fi-fi/2.14.1/humanizer.core.fi-fi.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.az.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.az/2.14.1/humanizer.core.az.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.8.0.6\" из \"https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.web.codegeneration.entityframeworkcore/8.0.6/microsoft.visualstudio.web.codegeneration.entityframeworkcore.8.0.6.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.hu.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.hu/2.14.1/humanizer.core.hu.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.hr.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.hr/2.14.1/humanizer.core.hr.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.ko-KR.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ko-kr/2.14.1/humanizer.core.ko-kr.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.ku.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ku/2.14.1/humanizer.core.ku.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Humanizer.Core.es.2.14.1\" из \"https://api.nuget.org/v3-flatcontainer/humanizer.core.es/2.14.1/humanizer.core.es.2.14.1.nupkg\".\r\nЭтот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.mt\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.mt/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.mt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.ar\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ar/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.ar"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.it\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.it/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.it"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.fr\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.fr/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.fr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.bg\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.bg/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.bg"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.he\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.he/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.he"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.fa\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.fa/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.fa"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.af\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.af/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.af"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.nb-NO\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.nb-no/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.nb-NO"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.da\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.da/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.da"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.id\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.id/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.id"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.bn-BD\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.bn-bd/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.bn-BD"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.cs\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.cs/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.cs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.hy\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.hy/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.hy"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.es\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.es/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.es"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.ms-MY\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.ms-my/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.ms-MY"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.el\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.el/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.el"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.web.codegeneration.entityframeworkcore/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.IdentityModel.Abstractions\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.is\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.is/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.is"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Humanizer.Core.hu\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/humanizer.core.hu/index.json\".\r\n  Этот хост неизвестен. (api.nuget.org:443)\r\n  Этот хост неизвестен.",
+      "libraryId": "Humanizer.Core.hu"
+    }
+  ]
+}
