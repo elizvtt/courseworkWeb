@@ -9,19 +9,14 @@
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+   
 }
 
 .search-input {
   width: 70%;
   max-width: 700px;
-  background-color: rgba(163, 154, 146, 0.36); 
-  color: rgba(163, 154, 146, 1);
-  font-size: 18px;
-  font-weight: 600px;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 40px 10px 15px;
+
 }
 
 .nav-right {
