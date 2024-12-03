@@ -12,11 +12,30 @@
   align-items: center; 
 }
 
-.search-input {
+.search-wrapper {
+  position: relative;
   width: 70%;
   max-width: 700px;
-
 }
+
+.search-input {
+  /* width: 70%;
+  max-width: 700px; */
+  width: 100%;
+  padding-right: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
 
 .nav-right {
   margin-right: 20px;

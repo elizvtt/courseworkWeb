@@ -100,8 +100,10 @@ function Header() {
           </button>
           <div className="navbar-collapse collapse d-flex justify-content-between align-items-center w-100">
             <div className="search-container">
-              <input type="text" className="form-control search-input" placeholder="Search" />
-              <img src="/loupe.svg" alt="Search" className="search-icon" />
+              <div className='search-wrapper'>
+                <input type="text" className="form-control search-input" placeholder="Search" />
+                <img src="/loupe.svg" alt="Search" className="search-icon" />
+              </div>
             </div>
             <ul className="navbar-nav d-flex align-items-center">
               <li className="nav-item">
