@@ -37,10 +37,10 @@ function Header() {
             <ul className="navbar-nav d-flex align-items-center">
               <li className="nav-item signup-item">
                 <img src="/signup.svg" alt="SignUp" className="signup-icon" />
-                <Link className="nav-link" to="#">Sign up</Link>
+                <Link className="nav-link" to="/SignUp">Sign up</Link>
               </li>
               <li className="nav-item cart-item">
-                <Link className="nav-link text-" to="/cart">
+                <Link className="nav-link text-" to="/Cart">
                   <img src="/cart.svg" alt="Cart" className="cart-icon" />
                 </Link>
               </li>
@@ -51,10 +51,11 @@ function Header() {
       
       <div className={`overlay ${isOverlayOpen ? 'open' : ''}`}>
         <div className="overlay-content">
-          <Link to="#" onClick={closeOverlay}>Категорії</Link>
-          <Link to="#" onClick={closeOverlay}>Товари</Link>
-          <Link to="/api/Clients" onClick={closeOverlay}>Клієнти</Link>
-          <Link to="#" onClick={closeOverlay}>Бонуси</Link>
+          <p className="menuCategories">Категорії</p>
+          <Link to="#" onClick={closeOverlay}>Ноутбуки</Link>
+          <Link to="#" onClick={closeOverlay}>Планшети</Link>
+          <Link to="#" onClick={closeOverlay}>Смартфони</Link>
+          <Link to="#" onClick={closeOverlay}>Годинники</Link>
         </div>
       </div>
 
