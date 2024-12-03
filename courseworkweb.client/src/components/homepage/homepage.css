@@ -17,7 +17,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  gap: 20px; /* Расстояние между элементами */
+  gap: 20px;
 }
 
 .ad {
@@ -82,8 +82,8 @@
 
 @media (max-width: 1200px) {
   .ads-content {
-    flex-wrap: nowrap; /* Убираем перенос строк */
-    justify-content: center; /* Центрируем */
+    flex-wrap: nowrap;
+    justify-content: center;
     transform: translateX(calc(-100% * var(--current-index, 0))); /* Плавное движение */
   }
 
