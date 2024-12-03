@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './homepage.css';
 
@@ -12,32 +12,60 @@ function HomePage() {
         'Ad 6 Content',
     ];
     const [currentIndex, setCurrentIndex] = useState(0);
-    
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+    // Обновляем состояние при изменении размера окна
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth <= 1400);
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Проверка при монтировании компонента
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     const handleNext = () => {
-        setCurrentIndex((prevIndex) =>
-        prevIndex < ads.length - 2 ? prevIndex + 2 : 0
-        );
+        if (isSmallScreen) {
+            setCurrentIndex((prevIndex) =>
+                prevIndex < ads.length - 1 ? prevIndex + 1 : 0
+            );
+        } else {
+            setCurrentIndex((prevIndex) =>
+                prevIndex < ads.length - 2 ? prevIndex + 2 : 0
+            );
+        }
     };
-    
+
     const handlePrev = () => {
-        setCurrentIndex((prevIndex) =>
-        prevIndex > 0 ? prevIndex - 2 : ads.length - 2
-        );
+        if (isSmallScreen) {
+            setCurrentIndex((prevIndex) =>
+                prevIndex > 0 ? prevIndex - 1 : ads.length - 1
+            );
+        } else {
+            setCurrentIndex((prevIndex) =>
+                prevIndex > 0 ? prevIndex - 2 : ads.length - 2
+            );
+        }
     };
-    
+
     const renderDots = () => {
         const dots = [];
-        for (let i = 0; i < ads.length / 2; i++) {
-          dots.push(
-            <div
-              key={i}
-              className={`dot ${i === currentIndex / 2 ? 'active' : ''}`}
-            ></div>
-          );
+        const totalPairs = Math.ceil(ads.length / (isSmallScreen ? 1 : 2));
+        const activePair = Math.floor(currentIndex / (isSmallScreen ? 1 : 2));
+
+        for (let i = 0; i < totalPairs; i++) {
+            dots.push(
+                <div
+                    key={i}
+                    className={`dot ${i === activePair ? 'active' : ''}`}
+                ></div>
+            );
         }
         return dots;
     };
-    
+
     return (
         <div className="ads-container">
             <button className="arrow left-arrow" onClick={handlePrev}>
@@ -45,7 +73,9 @@ function HomePage() {
             </button>
             <div className="ads-content">
                 <div className="ad">{ads[currentIndex]}</div>
-                <div className="ad">{ads[currentIndex + 1]}</div>
+                {!isSmallScreen && currentIndex + 1 < ads.length && (
+                    <div className="ad">{ads[currentIndex + 1]}</div>
+                )}
             </div>
             <button className="arrow right-arrow" onClick={handleNext}>
                 <img src="/arrow.svg" alt="Next" />
@@ -56,5 +86,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-

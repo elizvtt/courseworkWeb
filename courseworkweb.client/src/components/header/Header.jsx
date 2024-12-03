@@ -1,3 +1,4 @@
+// header.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,11 +19,9 @@ function Header() {
     <header>
       <nav className="navbar navbar-expand-sm navbar-light bg-white navbar-custom mb-3">
         <div className="container-fluid">
-          <li className="nav-item">
           <button className="menu-button" onClick={toggleOverlay}>
             <img src="/menu.svg" alt="Menu" className="menu-icon" />
           </button>
-          </li>
           <Link className="navbar-brand" to="/">Magaz</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
