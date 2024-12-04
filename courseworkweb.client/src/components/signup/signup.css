@@ -1,5 +1,10 @@
-/* .modal {
-  background-color: rgba(99, 94, 88, 0.7);
+.modal {
+  background-color: rgba(76, 72, 68, 0.8);
+}
+
+.modal-dialog {
+  margin-top: 100px;
+  border-radius: 15px;
 }
 
 .modal-body, .modal-header {
@@ -32,56 +37,22 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .button:hover {
   background-color: #5f5751;
   border: #3E3935;
-} */
-
-.signup-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 54;
 }
 
-.signup-content {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 400px;
+.modal-login {
+  color: #3E3935;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
 }
 
-input {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 8px;
-}
-
-button {
-  margin-top: 10px;
-}
-
-.error {
-  color: red;
-}
-
-.success {
-  color: green;
-}
-
-.close-button {
-  background: none;
-  border: none;
-  font-size: 1.5em;
-  float: right;
-  cursor: pointer;
+h5 {
+  font-weight: 1000;
+  font-size: 24px;
 }
