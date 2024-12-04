@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IJ2og8w3bLw=",
+  "dgSpecHash": "C8Y9FbuvZtc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Лиза\\VSCode projects\\courseworkWeb\\courseworkWeb.Server\\courseworkWeb.Server.csproj",
+  "projectFilePath": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\courseworkWeb.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Лиза\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Лиза\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Лиза\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Лиза\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Лиза\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Лиза\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -178,7 +179,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "message": "У пакета \"Azure.Identity\" 1.10.3 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний уровень)",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net8.0"
@@ -188,7 +189,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "У пакета \"Azure.Identity\" 1.10.3 есть известная уязвимость https://github.com/advisories/GHSA-wvxc-855f-jvrv (уровень серьезности: средний уровень)",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net8.0"
@@ -198,7 +199,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "message": "У пакета \"Microsoft.Identity.Client\" 4.56.0 есть известная уязвимость https://github.com/advisories/GHSA-m5vv-6r4h-3vj9 (уровень серьезности: средний уровень)",
       "libraryId": "Microsoft.Identity.Client",
       "targetGraphs": [
         "net8.0"
@@ -208,7 +209,7 @@
       "code": "NU1901",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "message": "У пакета \"Microsoft.Identity.Client\" 4.56.0 есть известная уязвимость https://github.com/advisories/GHSA-x674-v45j-fwxw (уровень серьезности: низкий уровень)",
       "libraryId": "Microsoft.Identity.Client",
       "targetGraphs": [
         "net8.0"
@@ -218,7 +219,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "message": "У пакета \"System.Text.Json\" 7.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий уровень)",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net8.0"

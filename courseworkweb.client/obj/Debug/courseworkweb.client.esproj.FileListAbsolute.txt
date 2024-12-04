@@ -1,2 +1,3 @@
 C:\Users\Лиза\source\repos\courseworkWeb\courseworkweb.client\obj\Debug\courseworkweb.client.esproj.CoreCompileInputs.cache
 C:\Users\Лиза\VSCode projects\courseworkWeb\courseworkweb.client\obj\Debug\courseworkweb.client.esproj.CoreCompileInputs.cache
+C:\Users\Лиза\VSCode\courseworkWeb\courseworkweb.client\obj\Debug\courseworkweb.client.esproj.CoreCompileInputs.cache

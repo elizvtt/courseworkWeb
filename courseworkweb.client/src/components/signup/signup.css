@@ -1,0 +1,87 @@
+/* .modal {
+  background-color: rgba(99, 94, 88, 0.7);
+}
+
+.modal-body, .modal-header {
+  background-color: #efe5dd;
+}
+
+.modal-title {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 36px;
+  color: #3E3935;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: rgb(184, 183, 182);
+  font-weight: 500;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #3E3935;
+  border: #3E3935;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: #5f5751;
+  border: #3E3935;
+} */
+
+.signup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 54;
+}
+
+.signup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  float: right;
+  cursor: pointer;
+}

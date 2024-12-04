@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Лиза\\VSCode projects\\courseworkWeb\\courseworkWeb.Server\\..\\courseworkweb.client",
+"WorkingDirectory": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\..\\courseworkweb.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

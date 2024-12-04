@@ -24,7 +24,7 @@
   cursor: pointer;
   position: absolute; 
   z-index: 3;
-  top: 32px;
+  top: 35px;
 }
 
 .menu-icon {
@@ -246,7 +246,7 @@
     position: relative;
     z-index: 3;
     margin-left: -20px;
-    margin-bottom: -90px;
+    margin-bottom: -145px;
   }
 
   .search-container {
@@ -276,6 +276,6 @@
   }
   .cart-item {
     margin-left: 5px;
-    margin-top: -40px;
+    margin-top: -48px;
   }
 }

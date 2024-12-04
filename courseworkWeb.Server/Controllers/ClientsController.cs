@@ -74,16 +74,30 @@ namespace courseworkWeb.Server.Controllers
         }
 
         // POST: api/Clients
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // [HttpPost]
+        // public async Task<ActionResult<Client>> PostClient(Client client)
+        // {
+        //     _context.Clients.Add(client);
+        //     await _context.SaveChangesAsync();
+
+        //     return CreatedAtAction("GetClient", new { id = client.Id }, client);
+        // }
         [HttpPost]
         public async Task<ActionResult<Client>> PostClient(Client client)
         {
+            if (client == null)
+            {
+                return BadRequest("Client data is null");
+            }
+
             _context.Clients.Add(client);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetClient", new { id = client.Id }, client);
         }
-
+        
+        
         // DELETE: api/Clients/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClient(int id)
@@ -104,5 +118,6 @@ namespace courseworkWeb.Server.Controllers
         {
             return _context.Clients.Any(e => e.Id == id);
         }
+
     }
 }

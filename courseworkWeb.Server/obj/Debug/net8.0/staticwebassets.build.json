@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "1ci8fCppyn9XBdI4vqh+yIoL9XibIwA8jY7YLP7Gxj4=",
+  "Hash": "Kb58uc2AgTSzx0BX3kgFRnhVS9g07UmMAc5tsEcD0Dw=",
   "Source": "courseworkWeb.Server",
   "BasePath": "_content/courseworkWeb.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Лиза\\VSCode projects\\courseworkWeb\\courseworkweb.client\\courseworkweb.client.esproj",
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkweb.client\\courseworkweb.client.esproj",
       "Version": 2,
       "Source": "courseworkweb.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
