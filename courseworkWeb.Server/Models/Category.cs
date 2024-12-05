@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -16,6 +17,7 @@ namespace WebCoursework.Server.Models
         public Category? Parent { get; set; }
 
         // Властивість для доступу до дочірніх категорій
-        public required IList<Category> Subcategories { get; set; }
+        [JsonIgnore]
+        public IList<Category> Subcategories { get; set; } = new List<Category>();
     }
 }

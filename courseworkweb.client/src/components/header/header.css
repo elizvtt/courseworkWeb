@@ -193,7 +193,6 @@
   }
   
   .navbar-brand {
-    margin-left: 25px;
     font-size: 30px;
     margin-top: 5px;
     padding: 0;
@@ -203,7 +202,7 @@
     position: relative;
     z-index: 3;
     margin-left: -10px;
-    margin-top: -45px;
+    margin-top: -65px;
   }
 
   .search-container {
@@ -236,7 +235,8 @@
   }
   
   .navbar-brand {
-    margin-left: 25px;
+    text-align: left;
+    margin-right: 150px;
     font-size: 30px;
     margin-top: 5px;
     padding: 0;
@@ -246,7 +246,7 @@
     position: relative;
     z-index: 3;
     margin-left: -20px;
-    margin-bottom: -145px;
+    margin-bottom: -85px;
   }
 
   .search-container {
