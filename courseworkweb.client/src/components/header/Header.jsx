@@ -81,8 +81,6 @@ function Header() {
        </div>
 
       <div className={`blur-background ${isOverlayOpen ? 'active' : ''}`} onClick={toggleOverlay}></div>
-
-
     </header>
   );
 }

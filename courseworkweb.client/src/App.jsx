@@ -5,6 +5,7 @@ import Clients from './components/clients/ClientApp';
 import Header from './components/header/Header';
 import Signup from './components/signup/SignUp';
 import Login from './components/login/LogIn';
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
         </Routes>
+        <Footer />
       </Router>
     </UserProvider>
   );

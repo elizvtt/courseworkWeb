@@ -1,0 +1,98 @@
+footer {
+    background-color: #efe5dd;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+    color: #3e3935;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ 
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    margin: 5px;
+}
+  
+.footer-brand {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Irish Grover';
+    margin-bottom: 70px;
+}
+  
+.footer-download {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+  
+.footer-download-img {
+    width: 200px;
+    height: auto;
+}
+  
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: 900;
+}
+  
+.footer-categories {
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+}
+  
+.footer-category {
+    margin-bottom: 5px;
+    
+}
+
+.footer-contact-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-align: right;
+}
+  
+.footer-contact {
+    font-size: 18px;
+    margin-bottom: 80px;
+    text-align: right;
+}
+  
+.footer-social-img {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+  
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.footer-line {
+    border: 0;
+    height: 3px;
+    background-color: #c3b8b2;
+    margin-bottom: 20px;
+}
+  
+.footer-year {
+    font-size: 18px;
+    font-weight: 700;
+    color: #7a7a7a;
+}
+  

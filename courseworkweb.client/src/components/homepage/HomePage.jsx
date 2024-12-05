@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './homepage.css';
 
@@ -218,6 +219,35 @@ function HomePage() {
                     <button className="game-button">Грати</button>
                 </div>
             </div>
+
+
+            <div className="all-item-section">
+                <h2 className="section-title">
+                    <Link to="/Products" className="products-link">Всі товари</Link> {/* Ссылка */}
+                </h2>
+                <div className="line-container"></div>
+                
+                <div className="all-items">
+                    {products.slice(0, 4).map((product) => ( // Вывод только первых трёх товаров
+                        <div key={product.id} className="top-item">
+                            <img src={product.image} alt={product.name} className="top-item-image" />
+                            <div className="top-item-name">{product.name}</div>
+                            <div className="top-item-price">
+                                {product.discountPrice 
+                                    ? <><span className="old-price">{product.price} грн</span> <span className="discount-price">{product.discountPrice} грн</span></>
+                                    : `${product.price} грн`}
+                            </div>
+                        </div>
+                    ))}
+                    {/* Четвёртый контейнер с ">" */}
+                    <div className="top-item view-more-container">
+                        <Link to="/Products" className="view-more-link">
+                            <span className="view-more-symbol">{'>'}</span>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            
 
         </div>
     );
