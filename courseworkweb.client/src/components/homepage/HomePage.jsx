@@ -1,265 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './homepage.css';
-
-// function HomePage() {
-//     const ads = [
-//         'Ad 1 Content',
-//         'Ad 2 Content',
-//         'Ad 3 Content',
-//         'Ad 4 Content',
-//         'Ad 5 Content',
-//         'Ad 6 Content',
-//     ];
-//     const [currentIndex, setCurrentIndex] = useState(0);
-//     const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-//     // Обновляем состояние при изменении размера окна
-//     useEffect(() => {
-//         const handleResize = () => {
-//             setIsSmallScreen(window.innerWidth <= 1400);
-//         };
-
-//         window.addEventListener('resize', handleResize);
-//         handleResize(); // Проверка при монтировании компонента
-
-//         return () => window.removeEventListener('resize', handleResize);
-//     }, []);
-
-//     const handleNext = () => {
-//         if (isSmallScreen) {
-//             setCurrentIndex((prevIndex) =>
-//                 prevIndex < ads.length - 1 ? prevIndex + 1 : 0
-//             );
-//         } else {
-//             setCurrentIndex((prevIndex) =>
-//                 prevIndex < ads.length - 2 ? prevIndex + 2 : 0
-//             );
-//         }
-//     };
-
-//     const handlePrev = () => {
-//         if (isSmallScreen) {
-//             setCurrentIndex((prevIndex) =>
-//                 prevIndex > 0 ? prevIndex - 1 : ads.length - 1
-//             );
-//         } else {
-//             setCurrentIndex((prevIndex) =>
-//                 prevIndex > 0 ? prevIndex - 2 : ads.length - 2
-//             );
-//         }
-//     };
-
-//     const renderDots = () => {
-//         const dots = [];
-//         const totalPairs = Math.ceil(ads.length / (isSmallScreen ? 1 : 2));
-//         const activePair = Math.floor(currentIndex / (isSmallScreen ? 1 : 2));
-
-//         for (let i = 0; i < totalPairs; i++) {
-//             dots.push(
-//                 <div
-//                     key={i}
-//                     className={`dot ${i === activePair ? 'active' : ''}`}
-//                 ></div>
-//             );
-//         }
-//         return dots;
-//     };
-
-//     return (
-//         <div className="ads-container">
-//             <button className="arrow left-arrow" onClick={handlePrev}>
-//                 <img src="/arrow.svg" alt="Previous" />
-//             </button>
-//             <div className="ads-content">
-//                 <div className="ad">{ads[currentIndex]}</div>
-//                 {!isSmallScreen && currentIndex + 1 < ads.length && (
-//                     <div className="ad">{ads[currentIndex + 1]}</div>
-//                 )}
-//             </div>
-//             <button className="arrow right-arrow" onClick={handleNext}>
-//                 <img src="/arrow.svg" alt="Next" />
-//             </button>
-//             <div className="dots-container">{renderDots()}</div>
-//         </div>
-//     );
-// }
-
-// export default HomePage;
-
-
-
-// import React, { useState, useEffect, useRef } from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './homepage.css';
-
-// function HomePage() {
-//     const ads = [
-//         'Ad 1 Content',
-//         'Ad 2 Content',
-//         'Ad 3 Content',
-//         'Ad 4 Content',
-//         'Ad 5 Content',
-//         'Ad 6 Content',
-//     ];
-//     const [categories, setCategories] = useState([]);
-//     const [products, setProducts] = useState([]);
-//     const [isSmallScreen, setIsSmallScreen] = useState(false);
-//     const [currentIndex, setCurrentIndex] = useState(0);
-//     const [scrollProgressProducts, setScrollProgressProducts] = useState(20);
-//     const [scrollProgressCategories, setScrollProgressCategories] = useState(20);
-
-//     const productsRef = useRef(null);
-//     const categoriesRef = useRef(null);
-
-//     // Обновляем состояние при изменении размера окна
-//     useEffect(() => {
-//         const handleResize = () => {
-//             setIsSmallScreen(window.innerWidth <= 1400);
-//         };
-
-//         window.addEventListener('resize', handleResize);
-//         handleResize(); // Проверка при монтировании компонента
-
-//         return () => window.removeEventListener('resize', handleResize);
-//     }, []);
-
-//     // Подгрузка данных из базы для категорий и топ товаров
-//     useEffect(() => {
-//         // Загрузка категорий
-//         fetch('http://localhost:5175/api/Categories')
-//             .then((response) => response.json())
-//             .then((data) => setCategories(data))
-//             .catch((error) => console.error('Ошибка при загрузке категорий:', error));
-
-//         // Загрузка товаров с DiscountPrice
-//         fetch('http://localhost:5175/api/Products')
-//             .then((response) => response.json())
-//             .then((data) => setProducts(data))
-//             .catch((error) => console.error('Ошибка при загрузке товаров:', error));
-//     }, []);
-
-//     // Логика переключения рекламы
-//     const handleNext = () => {
-//         setCurrentIndex((prevIndex) => (prevIndex + 1) % ads.length);
-//     };
-
-//     const handlePrev = () => {
-//         setCurrentIndex((prevIndex) => (prevIndex - 1 + ads.length) % ads.length);
-//     };
-
-
-//     // Функция для обновления прогресса прокрутки товаров
-//     const handleScrollProducts = () => {
-//         const scrollWidth = productsRef.current.scrollWidth;
-//         const scrollLeft = productsRef.current.scrollLeft;
-//         const progress = (scrollLeft / (scrollWidth - productsRef.current.clientWidth)) * 100;
-//         setScrollProgressProducts(progress);
-//     };
-
-//     // Функция для обновления прогресса прокрутки категорий
-//     const handleScrollCategories = () => {
-//         const scrollWidth = categoriesRef.current.scrollWidth;
-//         const scrollLeft = categoriesRef.current.scrollLeft;
-//         const progress = (scrollLeft / (scrollWidth - categoriesRef.current.clientWidth)) * 100;
-//         setScrollProgressCategories(progress);
-//     };
-
-//     const renderDots = () => {
-//         const dots = [];
-//         const totalPairs = Math.ceil(ads.length / (isSmallScreen ? 1 : 2));
-//         const activePair = Math.floor(currentIndex / (isSmallScreen ? 1 : 2));
-
-//         for (let i = 0; i < totalPairs; i++) {
-//             dots.push(
-//                 <div
-//                     key={i}
-//                     className={`dot ${i === activePair ? 'active' : ''}`}
-//                     onClick={() => handleDotClick(i)}
-//                 ></div>
-//             );
-//         }
-//         return dots;
-//     };
-
-//     return (
-//         <div className="homepage">
-//             {/* Секция рекламы */}
-//             <div className="ads-container">
-//                 <button className="arrow left-arrow" onClick={handlePrev}>
-//                     <img src="/arrow.svg" alt="Previous" />
-//                 </button>
-//                 <div className="ads-content">
-//                     <div className="ad">{ads[currentIndex]}</div>
-//                 </div>
-//                 <button className="arrow right-arrow" onClick={handleNext}>
-//                     <img src="/arrow.svg" alt="Next" />
-//                 </button>
-//             </div>
-
-//             {/* Точки для переключения рекламы */}
-//             <div className="dots-container">
-//                 {renderDots()}
-//             </div>
-
-//             {/* Топ товары */}
-//             <div className="section">
-//                 <h2 className="section-title">Топ товари</h2>
-//                 <div className="moving-line-container">
-//                     <div
-//                         className="moving-line-green"
-//                         style={{ width: `${scrollProgressProducts}%` }}
-//                     ></div>
-//                 </div>
-//                 <div
-//                     className="top-items-container"
-//                     ref={productsRef}
-//                     onScroll={handleScrollProducts}
-//                 >
-//                     <div className="top-items">
-//                         {products
-//                             .filter((product) => product.discountPrice) // Фильтруем товары с DiscountPrice
-//                             .map((product) => (
-//                                 <div key={product.id} className="top-item">
-//                                     <img src={product.image} alt={product.name} className="top-item-image" />
-//                                     <div className="top-item-name">{product.name}</div>
-//                                     <div className="top-item-price">{product.discountPrice} грн</div>
-//                                 </div>
-//                             ))}
-//                     </div>
-//                 </div>
-//             </div>
-
-//             {/* Категории */}
-//             <div className="section">
-//                 <h2 className="section-title">Категорії</h2>
-//                 <div className="moving-line-container">
-//                     <div
-//                         className="moving-line-pink"
-//                         style={{ width: `${scrollProgressCategories}%` }}
-//                     ></div>
-//                 </div>
-//                 <div
-//                     className="categories-container"
-//                     ref={categoriesRef}
-//                     onScroll={handleScrollCategories}
-//                 >
-//                     <div className="categories">
-//                         {categories.map((category) => (
-//                             <div key={category.id} className="category">
-//                                 <span>{category.name}</span>
-//                             </div>
-//                         ))}
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
-
-// export default HomePage;
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './homepage.css';
@@ -286,19 +24,19 @@ function HomePage() {
     const categoriesRef = useRef(null);
     const brandsRef = useRef(null);
 
-    // Обновляем состояние при изменении размера окна
+    // Зміна розміру вікна
     useEffect(() => {
         const handleResize = () => {
             setIsSmallScreen(window.innerWidth <= 1400);
         };
 
         window.addEventListener('resize', handleResize);
-        handleResize(); // Проверка при монтировании компонента
+        handleResize();
 
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    // Подгрузка данных из базы для категорий и топ товаров
+    // Підключення до бази даних
     useEffect(() => {
         fetch('http://localhost:5175/api/Categories')
             .then((response) => response.json())
@@ -316,7 +54,7 @@ function HomePage() {
             .catch((error) => console.error('Помилка під час завантаження товарів:', error));
     }, []);
 
-    // Логика переключения рекламы
+    // Перемикання реклами
     const handleNext = () => {
         if (isSmallScreen) {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % ads.length);
@@ -355,8 +93,7 @@ function HomePage() {
         const scrollWidth = productsRef.current.scrollWidth;
         const scrollLeft = productsRef.current.scrollLeft;
         const progress = (scrollLeft / (scrollWidth - productsRef.current.clientWidth)) * 100;
-        // setScrollProgressProducts(progress);
-        setScrollProgressProducts(Math.min(Math.max(progress, 20), 100)); // Ограничиваем прогресс от 0 до 100
+        setScrollProgressProducts(Math.min(Math.max(progress, 20), 100));
     };
 
     // Прокрутка категорій
@@ -378,7 +115,7 @@ function HomePage() {
 
     return (
         <div className="homepage">
-            {/* Секция рекламы */}
+            {/* Реклама */}
             <div className="ads-container">
                 <button className="arrow left-arrow" onClick={handlePrev}>
                     <img src="/arrow.svg" alt="Previous" />
@@ -393,13 +130,11 @@ function HomePage() {
                     <img src="/arrow.svg" alt="Next" />
                 </button>
             </div>
-
-            {/* Точки для переключения рекламы */}
             <div className="dots-container">
                 {renderDots()}
             </div>
 
-            {/* Топ товары */}
+            {/* Топ товари */}
             <div className="section">
                 <h2 className="section-title">Топ товари</h2>
                 <div className="moving-line-container">
@@ -429,7 +164,7 @@ function HomePage() {
                 </div>
             </div>
 
-            {/* Категории */}
+            {/* Категорії */}
             <div className="section">
                 <h2 className="section-title">Категорії</h2>
                 <div className="moving-line-container">
@@ -474,6 +209,13 @@ function HomePage() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </div>
+
+            <div className="game-section">
+                <h3>Вигравай та отримуй бонуси на наступну покупку</h3>
+                <div className="game-ad">
+                    <button className="game-button">Грати</button>
                 </div>
             </div>
 

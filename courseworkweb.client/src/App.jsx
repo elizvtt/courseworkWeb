@@ -4,6 +4,7 @@ import HomePage from './components/homepage/HomePage';
 import Clients from './components/clients/ClientApp';
 import Header from './components/header/Header';
 import Signup from './components/signup/SignUp';
+import Login from './components/login/LogIn';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/api/Clients" element={<Clients />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </UserProvider>

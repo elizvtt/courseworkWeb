@@ -37,7 +37,7 @@ function Header() {
           <div className="navbar-collapse collapse d-flex justify-content-between align-items-center w-100">
             <div className="search-container">
               <div className='search-wrapper'>
-                <input type="text" className="form-control search-input" placeholder="Search" />
+              <input type="text" className="form-control search-input" placeholder="Search" style={{backgroundColor: 'rgba(163, 154, 146, 0.4)', borderColor: 'rgba(163, 154, 146, 0.4)'}}/>
                 <img src="/loupe.svg" alt="Search" className="search-icon" />
               </div>
             </div>
@@ -51,7 +51,7 @@ function Header() {
                   <span className="nav-link">Вітаємо, {user.fullName}</span>
                   
                   {/* <Link className="nav-link" to="/Account">Вітаємо, {user.fullName}</Link> */}
-                  {/* <button className="nav-link btn btn-link" onClick={handleLogOut}>Log out</button> */}
+                  <button className="nav-link btn btn-link" onClick={handleLogOut}>Log out</button>
                 </li>
               ) : (
                 // Если пользователь не авторизован, показываем кнопку регистрации
