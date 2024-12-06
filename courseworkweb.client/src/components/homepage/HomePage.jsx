@@ -113,6 +113,19 @@ function HomePage() {
         setScrollProgressBrands(Math.min(Math.max(progress, 20), 100));
     };
 
+    const  getItemsToShow = () => {
+        if (window.innerWidth <= 660) {
+            return 0;
+        } else if (window.innerWidth <= 950) {
+            return 1;
+        } else if (window.innerWidth <= 1400) {
+            return 2;
+        } else if (window.innerWidth <= 1500)  {
+            return 3;
+        } else {
+            return 4;
+        }
+    }
 
     return (
         <div className="homepage">
@@ -228,7 +241,8 @@ function HomePage() {
                 <div className="line-container"></div>
                 
                 <div className="all-items">
-                    {products.slice(0, 4).map((product) => ( // Вывод только первых трёх товаров
+                {/* {products.slice(0, 4).map((product) => (  */}
+                {products.slice(0, getItemsToShow()).map((product) => ( // Вывод только первых трёх товаров
                         <div key={product.id} className="top-item">
                             <img src={product.image} alt={product.name} className="top-item-image" />
                             <div className="top-item-name">{product.name}</div>

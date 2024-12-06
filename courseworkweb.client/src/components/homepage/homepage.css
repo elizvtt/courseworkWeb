@@ -290,12 +290,12 @@ h3 {
 
 .old-price {
   text-decoration: line-through;
-  color: black;
+  color: gray;
   margin-right: 10px;
 }
 
 .discount-price {
-  color: red;
+  color: Black;
   font-weight: bold;
 }
 

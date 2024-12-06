@@ -45,7 +45,7 @@
 }
 
 .overlay.open {
-  width: 490px;
+  width: 500px;
   border-radius: 13px;
   box-shadow: 4px 0 6px rgba(148, 148, 148, 0.321);
 }
@@ -57,7 +57,24 @@
   text-align: center;
   transform: translateX(-50%); 
   color: black;
+  max-height: 635px;
+  overflow-y: auto;
 }
+
+.overlay-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.overlay-content::-webkit-scrollbar-thumb {
+  background-color: #F9F7F5;
+  border-radius: 10px;
+}
+
+.overlay-content::-webkit-scrollbar-thumb:hover {
+  background-color: #a49e9a;
+}
+
 
 .overlay-content a {
   display: block;
@@ -136,6 +153,7 @@
 
 .nav-item {
   list-style: none;
+  position: relative;
 }
 
 .signup-item {
@@ -278,4 +296,34 @@
     margin-left: 5px;
     margin-top: -48px;
   }
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 1050;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.cart-item .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+
+.dropdown-item {
+  padding: 7px 15px;
+  border-radius: 7px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f7f7f7;
 }
