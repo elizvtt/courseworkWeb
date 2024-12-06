@@ -15,7 +15,7 @@ namespace WebCoursework.Server.Models
         public required int CartId { get; set; }
         public required int Quantity { get; set; }
 
-        public required Client Client { get; set; }
+        public required Product Product { get; set; }
         public required Cart Cart{ get; set; }
     }
 }

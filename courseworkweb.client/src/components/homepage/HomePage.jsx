@@ -15,6 +15,8 @@ function HomePage() {
     const [categories, setCategories] = useState([]);
     const [products, setProducts] = useState([]);
     const [brands, setBrands] = useState([]);
+    const [cartItems, setCartItems] = useState([]);
+
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [scrollProgressProducts, setScrollProgressProducts] = useState(20);
@@ -129,6 +131,27 @@ function HomePage() {
         }
     }
 
+    const handleAddToCart = (product) => {
+        const updatedCart = [...cartItems];
+        const existingProductIndex = updatedCart.findIndex(item => item.id === product.id);
+    
+        if (existingProductIndex >= 0) {
+            updatedCart[existingProductIndex].quantity += 1;
+        } else {
+            updatedCart.push({ ...product, quantity: 1 });
+        }
+    
+        setCartItems(updatedCart);
+        localStorage.setItem('cart', JSON.stringify(updatedCart));  // Сохраняем в localStorage
+    
+        // Теперь добавляем товар на сервер
+        addToCartOnServer(product); 
+    };
+    
+     
+     
+    
+
     return (
         <div className="homepage">
             {/* Реклама */}
@@ -177,7 +200,7 @@ function HomePage() {
                                     <div className="top-item-name">{product.name}</div>
                                     <div className="top-item-price">{product.discountPrice} грн</div>
                                     <div className="top-item-oldprice">{product.price} грн</div>
-                                    <button className="buy-button">
+                                    <button className="buy-button" onClick={() => handleAddToCart(product)}>
                                         <img src="/bag.svg" alt="bag" className="bag-icon" />
                                     </button>
                                 </div>

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
       "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo1.png",
       "PackagePath": "staticwebassets\\images\\products\\lenovo1.png"
     },

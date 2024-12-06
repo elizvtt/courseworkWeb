@@ -86,7 +86,7 @@
   .ads-content {
     flex-wrap: nowrap;
     justify-content: center;
-    transform: translateX(calc(-100% * var(--current-index, 0))); /* Плавное движение */
+    transform: translateX(calc(-100% * var(--current-index, 0)));
   }
 
   .ad {
@@ -194,7 +194,6 @@
   height: 25px;
 }
 
-
 .category {
   width: 150px;
   height: 150px;
@@ -209,7 +208,7 @@
 
 .top-item-name,
 .category span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .top-item-price {

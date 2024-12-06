@@ -5,7 +5,8 @@ import Clients from './components/clients/ClientApp';
 import Header from './components/header/Header';
 import Signup from './components/signup/SignUp';
 import Login from './components/login/LogIn';
-import Footer from './components/footer/Footer'
+import Footer from './components/footer/Footer';
+import Products from './components/products/ProductList'
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/api/Clients" element={<Clients />} />
+          <Route path="/Clients" element={<Clients />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Products" element={<Products />} />
         </Routes>
         <Footer />
       </Router>

@@ -30,13 +30,6 @@ namespace WebCoursework.Server.Controllers
                 .Include(p => p.Category)
                 .Include(p => p.ProductImages) // Убедитесь, что Include используется
                 .ToListAsync();
-
-            // Проверьте, заполняется ли ProductImages для каждого продукта
-            foreach (var product in products)
-            {
-                Console.WriteLine($"Product: {product.Name}, Images: {product.ProductImages.Count}");
-            }
-
             return products;
         }
 
