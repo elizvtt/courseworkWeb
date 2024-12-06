@@ -572,3 +572,4 @@ C:\Users\Лиза\VSCode\courseworkWeb\courseworkWeb.Server\obj\Debug\net8.0\cou
 C:\Users\Лиза\VSCode\courseworkWeb\courseworkWeb.Server\obj\Debug\net8.0\courseworkWeb.Server.genruntimeconfig.cache
 C:\Users\Лиза\VSCode\courseworkWeb\courseworkWeb.Server\obj\Debug\net8.0\ref\courseworkWeb.Server.dll
 C:\Users\Лиза\VSCode\courseworkWeb\courseworkWeb.Server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Лиза\VSCode\courseworkWeb\courseworkWeb.Server\bin\Debug\net8.0\courseworkWeb.Server.staticwebassets.runtime.json

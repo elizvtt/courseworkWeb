@@ -116,14 +116,16 @@ function HomePage() {
     const  getItemsToShow = () => {
         if (window.innerWidth <= 660) {
             return 0;
-        } else if (window.innerWidth <= 950) {
+        } else if (window.innerWidth <= 1040) {
             return 1;
-        } else if (window.innerWidth <= 1400) {
+        } else if (window.innerWidth <= 1470) {
             return 2;
         } else if (window.innerWidth <= 1500)  {
             return 3;
-        } else {
+        } else if (window.innerWidth <= 2200)  {
             return 4;
+        } else {
+            return 5;
         }
     }
 
@@ -164,17 +166,25 @@ function HomePage() {
                 >
                     <div className="top-items">
                         {products
-                            .filter((product) => product.discountPrice)
-                            .map((product) => (
+                            .filter((product) => product.discountPrice) // Виводяться тільки товари зі скидкою
+                            .map((product) => {
+                            const primaryImage =
+                                product.productImages.find((img) => img.isPrimary)?.imageUrl ||
+                                '/images/default.png';
+                            return (
                                 <div key={product.id} className="top-item">
-                                    <img src={product.image} alt={product.name} className="top-item-image" />
+                                    <img src={`http://localhost:5175${primaryImage}`} alt={product.name} className="top-item-image" />
                                     <div className="top-item-name">{product.name}</div>
                                     <div className="top-item-price">{product.discountPrice} грн</div>
-                                    <div className="top-item-oldprice">{product.price}грн</div>
-                                    
+                                    <div className="top-item-oldprice">{product.price} грн</div>
+                                    <button className="buy-button">
+                                        <img src="/bag.svg" alt="bag" className="bag-icon" />
+                                    </button>
                                 </div>
-                            ))}
+                            );
+                        })}
                     </div>
+
                 </div>
             </div>
 
@@ -236,24 +246,42 @@ function HomePage() {
 
             <div className="all-item-section">
                 <h2 className="section-title">
-                    <Link to="/Products" className="products-link">Всі товари</Link> {/* Ссылка */}
+                    <Link to="/Products" className="products-link">Всі товари</Link>
                 </h2>
                 <div className="line-container"></div>
-                
+
                 <div className="all-items">
-                {/* {products.slice(0, 4).map((product) => (  */}
-                {products.slice(0, getItemsToShow()).map((product) => ( // Вывод только первых трёх товаров
+                {products
+                    .slice(0, getItemsToShow())
+                    .map((product) => {
+                        const primaryImage = product.productImages.find((img) => img.isPrimary)?.imageUrl ||
+                            '/images/default.png';
+
+                    return (
                         <div key={product.id} className="top-item">
-                            <img src={product.image} alt={product.name} className="top-item-image" />
+                            <img
+                                src={`http://localhost:5175${primaryImage}`}
+                                alt={product.name}
+                                className="top-item-image"
+                            />
                             <div className="top-item-name">{product.name}</div>
                             <div className="top-item-price">
-                                {product.discountPrice 
-                                    ? <><span className="old-price">{product.price} грн</span> <span className="discount-price">{product.discountPrice} грн</span></>
-                                    : `${product.price} грн`}
+                                {product.discountPrice ? (
+                                    <>
+                                        <span className="old-price">{product.price} грн</span>
+                                        <span className="discount-price">{product.discountPrice} грн</span>
+                                    </>
+                                ) : (
+                                    `${product.price} грн`
+                                )}
                             </div>
+                            <button className="buy-button">
+                                <img src="/bag.svg" alt="bag" className="bag-icon" />
+                            </button>
                         </div>
-                    ))}
-                    {/* Четвёртый контейнер с ">" */}
+                    );
+                })}
+
                     <div className="top-item view-more-container">
                         <Link to="/Products" className="view-more-link">
                             <span className="view-more-symbol">{'>'}</span>
@@ -261,8 +289,6 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-            
-
         </div>
     );
 }

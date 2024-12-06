@@ -1,5 +1,252 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "images/products/lenovo1.png",
+      "AssetFile": "images/products/lenovo1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:32:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo1.xdb9o6vreq.png",
+      "AssetFile": "images/products/lenovo1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "505481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:32:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xdb9o6vreq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/lenovo1.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo2.png",
+      "AssetFile": "images/products/lenovo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:32:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo2.x39ps6vr1w.png",
+      "AssetFile": "images/products/lenovo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:32:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x39ps6vr1w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/lenovo2.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo3.92k5b0wj46.png",
+      "AssetFile": "images/products/lenovo3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92k5b0wj46"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/lenovo3.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo3.png",
+      "AssetFile": "images/products/lenovo3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="
+        }
+      ]
+    }
+  ]
 }

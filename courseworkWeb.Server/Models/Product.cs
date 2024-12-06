@@ -19,7 +19,10 @@ namespace WebCoursework.Server.Models
 
         public required Category Category { get; set; }
 
-        public required IList<ProductImage> ProductImages { get; set; }
+
+        // [InverseProperty("Product")]
+        public IList<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
+
         public required IList<ProductAttribute> ProductAttributes { get; set; }
         public required IList<Review> Reviews{ get; set; }
     }

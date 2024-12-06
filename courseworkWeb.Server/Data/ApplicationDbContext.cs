@@ -23,19 +23,6 @@ namespace courseworkWeb.Server.Data
         public DbSet<Orders> Orders { get; set; } = default!;
         public DbSet<DeliveryMethod> DeliveryMethods { get; set; } = default!;
         public DbSet<OrderItem> OrderItems { get; set;} = default!;
+
     }
 }
-
-// -----------------------AttributeGroup
-// -----------------------Attributes
-// -----------------------Cart
-// -----------------------CartItem
-// -----------------------Category
-// -----------------------Client
-// -----------------------DeliveryMethod
-// -----------------------Orders
-// -----------------------OrderItem
-// -----------------------ProductAttribute
-// -----------------------Product
-// -----------------------ProductImage
-// -----------------------Review

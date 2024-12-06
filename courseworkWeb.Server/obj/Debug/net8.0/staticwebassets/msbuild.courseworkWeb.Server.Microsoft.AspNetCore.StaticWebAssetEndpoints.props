@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G76Yg3qIhQva7GP44mmzxLea\u002BRQtfquGD7JuZWgevc8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"505481"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G76Yg3qIhQva7GP44mmzxLea\u002BRQtfquGD7JuZWgevc8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:32:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo1.xdb9o6vreq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xdb9o6vreq"},{"Name":"integrity","Value":"sha256-G76Yg3qIhQva7GP44mmzxLea\u002BRQtfquGD7JuZWgevc8="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/lenovo1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"505481"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G76Yg3qIhQva7GP44mmzxLea\u002BRQtfquGD7JuZWgevc8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:32:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o\u002BGbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"399415"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o\u002BGbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:32:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo2.x39ps6vr1w.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x39ps6vr1w"},{"Name":"integrity","Value":"sha256-o\u002BGbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/lenovo2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"399415"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022o\u002BGbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:32:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo3.92k5b0wj46.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"92k5b0wj46"},{"Name":"integrity","Value":"sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/lenovo3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"281345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:33:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/lenovo3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"281345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 12:33:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
