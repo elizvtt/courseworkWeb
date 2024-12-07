@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,4 +87,228 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}  
+}
+*/
+
+
+/* Основные стили для контейнера */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  gap: 60px;
+}
+
+/* Стили для контейнера фильтров */
+.filters-container {
+  width: 40%;
+  font-size: 18px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #f9f7f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Общие стили для инпутов типа number и range */
+input[type="number"], input[type="range"] {
+  border-radius: 10px;
+  border: none;
+  background-color: #dbd4cf;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;  
+}
+
+/* Стили для слайдера (input[type="range"]) */
+input[type="range"] {
+  width: 10%;
+  margin-top: 10px;
+}
+
+/* Стили для слайдера с диапазоном цен */
+.price-slider {
+  margin: 10px 0;
+}
+
+/* Стили для текста в фильтрах */
+p {
+  margin-bottom: 2px;
+  margin-top: 20px;
+}
+
+/* Стили для контейнера с продуктами */
+.products-container {
+  width: 110%;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #f9f7f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для списка товаров */
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* Стили для отдельного товара */
+.item-list {
+  position: relative;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  padding: 10px;
+}
+
+.item-list:hover {
+  border-color: #a49e9a;
+}
+
+/* Стили для изображения товара */
+.item-image {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  object-fit: contain;
+}
+
+/* Стили для названия товара */
+.item-name {
+  font-weight: bold;
+}
+
+/* Стили для цены товара */
+.item-price {
+  margin-top: 10px;
+}
+
+/* Стили для кнопки покупки */
+.buy-button {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Стили для радио кнопок */
+.radio-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Цвет радио кнопок */
+input[type="radio"] {
+  accent-color: rgb(134, 237, 146);
+}
+
+.price-range {
+  display: flex;
+  align-items: center;
+}
+
+.price-range input {
+  width: 90px;
+  margin-right: 5px;
+}
+
+.price-range span {
+  margin: 0 5px;
+}
+
+/* Стили для слайдера */
+.rc-slider {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.rc-slider-rail {
+  background-color: #ddd; /* Цвет фона слайдера */
+}
+
+.rc-slider-track {
+  background-color: #fb99d4 !important;
+}
+
+.rc-slider-handle {
+  border-color: #fb99d4 !important;
+  box-shadow: 0 0 0 2px #fb99d4cf !important;
+}
+
+.rc-slider-handle-dragging {
+  box-shadow: 0 0 0 5px #fb99d4cf !important;
+}
+
+.filters-container, .products-container {
+  font-size: 18px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #f9f7f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 2150px) {
+  .items-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+
+  .products-container {
+    width: 130%;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: #f9f7f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 1785px) {
+  .items-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .products-container {
+    width: 130%;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: #f9f7f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 1520px) {
+  .items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+
+@media (max-width: 1194px) {
+  .items-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+}

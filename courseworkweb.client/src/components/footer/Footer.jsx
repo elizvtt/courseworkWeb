@@ -25,7 +25,7 @@ function Footer() {
             <div className="footer-center">
                 <h3 className="footer-title">Категорії</h3>
                 <div className="footer-categories">
-                    {categories.map((category, index) => (
+                    {categories.filter(category => category.parentId === null).map((category, index) => (
                     <div key={index} className="footer-category">
                         {category.name}
                     </div>

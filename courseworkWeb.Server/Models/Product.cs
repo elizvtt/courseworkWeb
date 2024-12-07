@@ -14,7 +14,7 @@ namespace WebCoursework.Server.Models
         [ForeignKey("Category")]
         public required int CategoryId { get; set; }
         public required string Brand { get; set; }
-        public required int Guarantee { get; set; } // Гарантія у місяцях
+        public required int Guarantee { get; set; }
         public decimal? DiscountPrice { get; set; }
 
         public required Category Category { get; set; }
