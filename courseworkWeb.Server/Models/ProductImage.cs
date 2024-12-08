@@ -14,8 +14,7 @@ namespace WebCoursework.Server.Models
         public required string ImageUrl { get; set; }
         public bool IsPrimary { get; set; }
 
-        [JsonIgnore] // Если вы не хотите сериализовать, но не удаляйте сам объект
-        //  [InverseProperty("ProductImages")]
+        [JsonIgnore]
         public Product? Product { get; set; }
     }
 }

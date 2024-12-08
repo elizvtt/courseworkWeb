@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -12,7 +13,9 @@ namespace WebCoursework.Server.Models
         public required int ClientId { get; set; }
 
         public required Client Client { get; set; }
-        public required ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+
+        // [JsonIgnore]
+        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 
     }
 }

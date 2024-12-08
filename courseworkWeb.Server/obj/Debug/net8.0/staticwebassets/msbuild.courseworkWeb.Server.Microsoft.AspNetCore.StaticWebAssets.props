@@ -18,59 +18,347 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\default.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo1.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo1.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>courseworkWeb.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/courseworkWeb.Server</BasePath>
-      <RelativePath>images/products/lenovo1.png</RelativePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Blue.photo1.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xdb9o6vreq</Fingerprint>
-      <Integrity>G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=</Integrity>
+      <Fingerprint>3pagrtsfif</Fingerprint>
+      <Integrity>2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo1.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo1.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo2.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo2.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>courseworkWeb.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/courseworkWeb.Server</BasePath>
-      <RelativePath>images/products/lenovo2.png</RelativePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Blue.photo2.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x39ps6vr1w</Fingerprint>
-      <Integrity>o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=</Integrity>
+      <Fingerprint>t7zuxmtfl2</Fingerprint>
+      <Integrity>N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo2.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo2.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo3.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo3.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>courseworkWeb.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/courseworkWeb.Server</BasePath>
-      <RelativePath>images/products/lenovo3.png</RelativePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Blue.photo3.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>92k5b0wj46</Fingerprint>
-      <Integrity>0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=</Integrity>
+      <Fingerprint>59ykvuxovm</Fingerprint>
+      <Integrity>l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo3.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Blue.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a8eqndsl3p</Fingerprint>
+      <Integrity>dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i5nkqi3bh3</Fingerprint>
+      <Integrity>NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hkdkov1huo</Fingerprint>
+      <Integrity>Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j4vnhjx7n3</Fingerprint>
+      <Integrity>U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5h2fy7clo7</Fingerprint>
+      <Integrity>t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qp9enosnif</Fingerprint>
+      <Integrity>UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ns93pah8s0</Fingerprint>
+      <Integrity>V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uroppmqs3i</Fingerprint>
+      <Integrity>qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nkplqbeefg</Fingerprint>
+      <Integrity>tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9xivy71447</Fingerprint>
+      <Integrity>jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9xivy71447</Fingerprint>
+      <Integrity>jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sok5vjx5ch</Fingerprint>
+      <Integrity>BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xs5xg1vixm</Fingerprint>
+      <Integrity>X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l2wyvqdnqt</Fingerprint>
+      <Integrity>3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vl8l6uaosh</Fingerprint>
+      <Integrity>07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5j4opd6ydl</Fingerprint>
+      <Integrity>8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo5.webp'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -13,5 +14,8 @@ namespace WebCoursework.Server.Models
         public required string Password { get; set; }
         public string Role { get; set; } = "user";
         public int BonusPoints { get; set; } = 0;
+
+        [JsonIgnore]
+        public IList<Cart> Carts { get; set; } = new List<Cart>();
     }
 }

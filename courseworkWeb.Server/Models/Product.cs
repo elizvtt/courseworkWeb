@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -20,8 +21,11 @@ namespace WebCoursework.Server.Models
         public required Category Category { get; set; }
 
 
-        // [InverseProperty("Product")]
         public IList<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
+
+        [JsonIgnore]
+        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+
 
         public required IList<ProductAttribute> ProductAttributes { get; set; }
         public required IList<Review> Reviews{ get; set; }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wpwJz4h9dcs3cJ2g/vB5M2OwPanVzjue/JnMxEds4PE=",
+  "Hash": "D9R2/nzOCMhdnJ0ePmw3gxzsQdcv710/NqZiekNarYU=",
   "Source": "courseworkWeb.Server",
   "BasePath": "_content/courseworkWeb.Server",
   "Mode": "Default",
@@ -50,12 +50,12 @@
       "OriginalItemSpec": "wwwroot\\images\\default.png"
     },
     {
-      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo1.png",
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
       "SourceId": "courseworkWeb.Server",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
       "BasePath": "_content/courseworkWeb.Server",
-      "RelativePath": "images/products/lenovo1#[.{fingerprint}]?.png",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Blue.photo1#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -64,19 +64,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xdb9o6vreq",
-      "Integrity": "G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=",
+      "Fingerprint": "3pagrtsfif",
+      "Integrity": "2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\lenovo1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp"
     },
     {
-      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo2.png",
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo2.webp",
       "SourceId": "courseworkWeb.Server",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
       "BasePath": "_content/courseworkWeb.Server",
-      "RelativePath": "images/products/lenovo2#[.{fingerprint}]?.png",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Blue.photo2#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -85,19 +85,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x39ps6vr1w",
-      "Integrity": "o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=",
+      "Fingerprint": "t7zuxmtfl2",
+      "Integrity": "N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\lenovo2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo2.webp"
     },
     {
-      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo3.png",
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo3.webp",
       "SourceId": "courseworkWeb.Server",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
       "BasePath": "_content/courseworkWeb.Server",
-      "RelativePath": "images/products/lenovo3#[.{fingerprint}]?.png",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Blue.photo3#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -106,11 +106,347 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "92k5b0wj46",
-      "Integrity": "0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=",
+      "Fingerprint": "59ykvuxovm",
+      "Integrity": "l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\lenovo3.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Blue.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a8eqndsl3p",
+      "Integrity": "dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i5nkqi3bh3",
+      "Integrity": "NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hkdkov1huo",
+      "Integrity": "Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4vnhjx7n3",
+      "Integrity": "U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5h2fy7clo7",
+      "Integrity": "t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo5.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qp9enosnif",
+      "Integrity": "UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Mint.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ns93pah8s0",
+      "Integrity": "V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Mint.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uroppmqs3i",
+      "Integrity": "qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Mint.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nkplqbeefg",
+      "Integrity": "tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Mint.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9xivy71447",
+      "Integrity": "jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo5.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Mint.photo5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9xivy71447",
+      "Integrity": "jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sok5vjx5ch",
+      "Integrity": "BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xs5xg1vixm",
+      "Integrity": "X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2wyvqdnqt",
+      "Integrity": "3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vl8l6uaosh",
+      "Integrity": "07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5j4opd6ydl",
+      "Integrity": "8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp"
     }
   ],
   "Endpoints": [
@@ -197,8 +533,8 @@
       ]
     },
     {
-      "Route": "images/products/lenovo1.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo1.png",
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo1.3pagrtsfif.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,56 +543,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "505481"
+          "Value": "9750"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=\""
+          "Value": "\"2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:32:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/lenovo1.xdb9o6vreq.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "505481"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:32:32 GMT"
+          "Value": "Sat, 07 Dec 2024 12:57:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -266,21 +565,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xdb9o6vreq"
+          "Value": "3pagrtsfif"
         },
         {
           "Name": "label",
-          "Value": "images/products/lenovo1.png"
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Blue.photo1.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-G76Yg3qIhQva7GP44mmzxLea+RQtfquGD7JuZWgevc8="
+          "Value": "sha256-2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0="
         }
       ]
     },
     {
-      "Route": "images/products/lenovo2.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo2.png",
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -289,19 +588,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "399415"
+          "Value": "9750"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\""
+          "Value": "\"2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:32:48 GMT"
+          "Value": "Sat, 07 Dec 2024 12:57:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -311,13 +610,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="
+          "Value": "sha256-2VZytqloSDX8vorJsR4kV69yfQNcOMnTJunVVNwOxd0="
         }
       ]
     },
     {
-      "Route": "images/products/lenovo2.x39ps6vr1w.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo2.png",
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo2.t7zuxmtfl2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -326,19 +625,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "399415"
+          "Value": "5416"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA=\""
+          "Value": "\"N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:32:48 GMT"
+          "Value": "Sat, 07 Dec 2024 12:58:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -348,21 +647,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x39ps6vr1w"
+          "Value": "t7zuxmtfl2"
         },
         {
           "Name": "label",
-          "Value": "images/products/lenovo2.png"
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Blue.photo2.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o+GbNUM1mirlfwcyvEXHCAUnpqHA8xztgHky5d3j4YA="
+          "Value": "sha256-N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c="
         }
       ]
     },
     {
-      "Route": "images/products/lenovo3.92k5b0wj46.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo3.png",
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,64 +670,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "281345"
+          "Value": "5416"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\""
+          "Value": "\"N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:33:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "92k5b0wj46"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/lenovo3.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/lenovo3.png",
-      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\lenovo3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281345"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:33:01 GMT"
+          "Value": "Sat, 07 Dec 2024 12:58:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -438,7 +692,1401 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Z9qDpzL23d7NWYyBM7S89hjGbs3mrDlpWKP0e/DpQQ="
+          "Value": "sha256-N4k6apUJJjTxXhhbObP0Ftz0OaXRQ6vVYFGfyGCwf+c="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo3.59ykvuxovm.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 12:58:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "59ykvuxovm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Blue.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 12:58:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l075YikKgVHpWUzKN03qqYDt//1BRTGnrXJ26VsEoVQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo4.a8eqndsl3p.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 12:58:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8eqndsl3p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Blue.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Blue.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 12:58:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.i5nkqi3bh3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5nkqi3bh3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NoSvNeG2MdYjBGjLTpQXgag+cODxV2gjxloL9judMMw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.hkdkov1huo.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hkdkov1huo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO+S0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.j4vnhjx7n3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4vnhjx7n3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:25:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.5h2fy7clo7.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:27:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5h2fy7clo7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:27:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.qp9enosnif.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qp9enosnif"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Graphite.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo1.ns93pah8s0.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ns93pah8s0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4Xr+bfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5+Qs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo2.uroppmqs3i.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uroppmqs3i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH+COOCpCs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo3.nkplqbeefg.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkplqbeefg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo4.9xivy71447.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xivy71447"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo5.9xivy71447.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xivy71447"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Mint.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:42:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jV/Q+/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.sok5vjx5ch.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sok5vjx5ch"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.xs5xg1vixm.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xs5xg1vixm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.l2wyvqdnqt.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2wyvqdnqt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O+lVOZYBQT+Cc4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.vl8l6uaosh.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:47:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vl8l6uaosh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:47:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.5j4opd6ydl.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:47:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5j4opd6ydl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 13:47:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN+XfU="
         }
       ]
     }

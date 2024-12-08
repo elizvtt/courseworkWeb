@@ -349,14 +349,86 @@
   left: auto;
 }
 
+.dropdown-menu-title {
+  font-weight: 700;
+  color: #3e3935;
+}
 
 .dropdown-item {
   padding: 7px 15px;
   border-radius: 7px;
-  font-weight: 500;
   cursor: pointer;
 }
 
 .dropdown-item:hover {
   background-color: #f7f7f7;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.cart-item-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #625b55;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.cart-item-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e3935;
+}
+
+.mx-2 {
+  font-weight: 600;
+  padding: 3px 8px;
+}
+
+.dropdown-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  border-top: 1px solid #ddd;
+}
+
+.dropdown-footer button {
+  margin-top: 15px;
+  padding: 15px 20px;
+  background-color: #3e3935;
+  color: white;
+  font-weight: 500;
+}
+
+.dropdown-footer button:hover {
+  background-color: #625b55;
+  color: white;
+}
+
+.nav-item.profile-item .dropdown-menu {
+  left: 0;
+  right: auto;
+}
+
+.profile-item .dropdown-item {
+  padding: 10px 15px;
+  font-weight: 500;
+}
+
+.profile-item .dropdown-item:hover {
+  background-color: #f0f0f0;
 }
