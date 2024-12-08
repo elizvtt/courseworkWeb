@@ -472,7 +472,7 @@ function Header() {
                 <Link className="nav-link" to="/Carts">
                   <img src="/cart.svg" alt="Cart" className="cart-icon" />
                 </Link>
-                {/* {isCartDropdownOpen && ( */}
+                {isCartDropdownOpen && (
                   <div className="dropdown-menu">
                     {cartItems.length === 0 ? (
                       <span className="dropdown-item">Ваш кошик порожній</span>
@@ -523,7 +523,7 @@ function Header() {
                       </>
                     )}
                   </div>
-                {/* )} */}
+                )}
               </li>
             </ul>
           </div>
