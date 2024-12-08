@@ -42,6 +42,7 @@ import Signup from './components/signup/SignUp';
 import Login from './components/login/LogIn';
 import Footer from './components/footer/Footer';
 import ProductsList from './components/productslist/ProductsList';
+import Cart from './components/cartpage/CartPage';
 import Product from './components/product/Product'
 
 
@@ -57,7 +58,8 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/Products" element={<ProductsList />} />
-            <Route path="/Products/:id" element={<Product />} />
+            <Route path="/Cart" element={<Cart />} />
+            {/* <Route path="/Products/:id" element={<Product />} /> */}
           </Routes>
           <Footer />
         </Router>
