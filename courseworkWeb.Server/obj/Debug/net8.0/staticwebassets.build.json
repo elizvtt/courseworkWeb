@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YaeQ5TMi0lSl00GrMxAZD7HxEy1xlhYcOKsdO+8P4CQ=",
+  "Hash": "khco6/v7zHCEF00b7q6TQPLWzPDU4WsyJakCyPdJvtQ=",
   "Source": "courseworkWeb.Server",
   "BasePath": "_content/courseworkWeb.Server",
   "Mode": "Default",
@@ -48,6 +48,258 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.png"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z6hl3uzw5t",
+      "Integrity": "tWpkVCtRNfH0oVtD7sSB+Oz/UQhIF8CVsxRyZ07CQhc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ly33l6y3fq",
+      "Integrity": "zSMeV96VGgo6MX+mVbAADVoQVlY8Z9iATtBEFVsBQr0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwi514qg2h",
+      "Integrity": "FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8diyph2c46",
+      "Integrity": "fE7zrb+FAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "17s7002oyk",
+      "Integrity": "g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dq9x4ssb8z",
+      "Integrity": "haOOQWqatWNc+vfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "irg4wwkuyb",
+      "Integrity": "InItziqszPGk56OcGHKKbuVuXXDJx+cqBKrUkbqxEmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kz39g3xs7b",
+      "Integrity": "kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b+QtRxxwrbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ykauzmk8rk",
+      "Integrity": "EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9+EROr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max White Titanium.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o7r6ukeu3u",
+      "Integrity": "vCLMTDu7eTbgbTNRqS3Bko8KnPG+dBGYXwvAWNG2vdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max White Titanium.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmtf4row82",
+      "Integrity": "N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Apple iPhone 16 Pro Max.photo#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l3bpn50sfp",
+      "Integrity": "j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp"
     },
     {
       "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
@@ -508,6 +760,990 @@
         {
           "Name": "integrity",
           "Value": "sha256-X0fRMF+x2YCGk7ETsA6kB7JgkSvYReEcWpRXBCIqm50="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWpkVCtRNfH0oVtD7sSB+Oz/UQhIF8CVsxRyZ07CQhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:05:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tWpkVCtRNfH0oVtD7sSB+Oz/UQhIF8CVsxRyZ07CQhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.z6hl3uzw5t.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tWpkVCtRNfH0oVtD7sSB+Oz/UQhIF8CVsxRyZ07CQhc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:05:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z6hl3uzw5t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tWpkVCtRNfH0oVtD7sSB+Oz/UQhIF8CVsxRyZ07CQhc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.ly33l6y3fq.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zSMeV96VGgo6MX+mVbAADVoQVlY8Z9iATtBEFVsBQr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly33l6y3fq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zSMeV96VGgo6MX+mVbAADVoQVlY8Z9iATtBEFVsBQr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zSMeV96VGgo6MX+mVbAADVoQVlY8Z9iATtBEFVsBQr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zSMeV96VGgo6MX+mVbAADVoQVlY8Z9iATtBEFVsBQr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.bwi514qg2h.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwi514qg2h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.8diyph2c46.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fE7zrb+FAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8diyph2c46"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fE7zrb+FAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fE7zrb+FAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fE7zrb+FAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.17s7002oyk.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17s7002oyk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.dq9x4ssb8z.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"haOOQWqatWNc+vfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dq9x4ssb8z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-haOOQWqatWNc+vfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"haOOQWqatWNc+vfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:10:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-haOOQWqatWNc+vfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.irg4wwkuyb.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"InItziqszPGk56OcGHKKbuVuXXDJx+cqBKrUkbqxEmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "irg4wwkuyb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-InItziqszPGk56OcGHKKbuVuXXDJx+cqBKrUkbqxEmY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"InItziqszPGk56OcGHKKbuVuXXDJx+cqBKrUkbqxEmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-InItziqszPGk56OcGHKKbuVuXXDJx+cqBKrUkbqxEmY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.kz39g3xs7b.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b+QtRxxwrbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kz39g3xs7b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b+QtRxxwrbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b+QtRxxwrbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b+QtRxxwrbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9+EROr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9+EROr8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.ykauzmk8rk.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9+EROr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:14:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykauzmk8rk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9+EROr8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max White Titanium.photo1.o7r6ukeu3u.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vCLMTDu7eTbgbTNRqS3Bko8KnPG+dBGYXwvAWNG2vdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:16:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7r6ukeu3u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max White Titanium.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vCLMTDu7eTbgbTNRqS3Bko8KnPG+dBGYXwvAWNG2vdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max White Titanium.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vCLMTDu7eTbgbTNRqS3Bko8KnPG+dBGYXwvAWNG2vdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:16:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vCLMTDu7eTbgbTNRqS3Bko8KnPG+dBGYXwvAWNG2vdQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max White Titanium.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:16:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max White Titanium.photo2.xmtf4row82.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:16:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmtf4row82"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max White Titanium.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max.photo.l3bpn50sfp.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l3bpn50sfp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Apple iPhone 16 Pro Max.photo.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Apple iPhone 16 Pro Max.photo.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 12:06:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="
         }
       ]
     },

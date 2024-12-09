@@ -29,7 +29,7 @@
 }
 
 .product-page-main-image {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: contain;
   border-radius: 10px;
@@ -76,6 +76,34 @@
   border-radius: 13px;
   color: #3e3935;
 }
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.circle-green {
+  background-color: rgb(28, 186, 28);
+}
+
+.circle-red {
+  background-color: rgb(186, 28, 28);
+}
+
+.availability-text {
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.add-to-cart-button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
 
 .product-page-price-container {
   display: flex;

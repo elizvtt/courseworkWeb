@@ -111,8 +111,6 @@ function Header() {
                   {isProfileDropdownOpen && (
                     <div className="dropdown-menu">
                       <Link className="dropdown-item" to={`/Profile/${user.id}`}>Профіль</Link>
-                      <Link className="dropdown-item" to="/orders">Мої замовлення</Link>
-                      <Link className="dropdown-item" to="/bonuses">Мої бонуси</Link>
                       <button className="dropdown-item btn btn-link" onClick={handleLogOut}>
                         Вийти
                       </button>
@@ -132,6 +130,9 @@ function Header() {
               >
                 <Link className="nav-link" to="/Cart">
                   <img src="/cart.svg" alt="Cart" className="cart-icon" />
+                  {cartItems.length > 0 && (
+                    <span className="cart-item-count">{cartItems.reduce((total, item) => total + item.quantity, 0)}</span>
+                  )}
                 </Link>
                 {isCartDropdownOpen && (
                   <div className="dropdown-menu">
@@ -152,7 +153,20 @@ function Header() {
                               />
                               <div className="cart-item-details">
                                 <span className="cart-item-name">{item.product.name}</span>
-                                <span className="cart-item-price">{item.product.price * item.quantity} грн</span>
+                                <div className="cart-item-price">
+                                  {item.product.discountPrice ? (
+                                    <>
+                                      <span className="text-muted text-decoration-line-through">
+                                        {item.product.price} грн
+                                      </span>
+                                      <span className="ms-2">
+                                        {item.product.discountPrice * item.quantity} грн
+                                      </span>
+                                    </>
+                                  ) : (
+                                    <span>{item.product.price * item.quantity} грн</span>
+                                  )}
+                                </div>
                               </div>
                               <div className="cart-item-quantity">
                                 <button

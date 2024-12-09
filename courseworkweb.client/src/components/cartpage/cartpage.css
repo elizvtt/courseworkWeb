@@ -98,6 +98,7 @@
     width: 35px;
     font-size: 20px;
     font-weight: 500;
+    z-index: 50;
 }
 
 .cart-actions {
@@ -130,8 +131,8 @@
 }
 
 .cart-actions button:hover {
-background-color: #625b55;
-color: white;
+    background-color: #625b55;
+    color: white;
 }
 
 .trashcan-icon {

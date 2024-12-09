@@ -5,6 +5,54 @@
       "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Black Titanium.photo3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max White Titanium.photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max.photo.webp"
+    },
+    {
       "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
       "PackagePath": "staticwebassets\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp"
     },

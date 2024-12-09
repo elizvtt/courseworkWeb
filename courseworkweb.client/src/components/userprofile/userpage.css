@@ -1,6 +1,5 @@
 .user-page {
   display: flex;
-  /* top | right | bottom | left */
   margin: 70px 70px 70px 200px;
 }
 

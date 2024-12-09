@@ -46,15 +46,29 @@ function CartPage() {
             return (
               <div key={item.id} className="cartpage-item d-flex align-items-center">
                 <Link to={`/Products/${item.product.id}`} className="cartpage-link d-flex align-items-center">
-                  <img
-                    src={`http://localhost:5175${primaryImage}`}
-                    alt={item.product.name}
-                    className="cartpage-image"
-                  />
-                  <div className="cartpage-item-details">
-                    <span className="cartpage-item-name">{item.product.name}</span>
-                    <span className="cartpage-item-price">{item.product.price * item.quantity} грн</span>
-                  </div>
+                    <img
+                      src={`http://localhost:5175${primaryImage}`}
+                      alt={item.product.name}
+                      className="cartpage-image"
+                    />
+                    <div className="cartpage-item-details">
+                      <span className="cartpage-item-name">{item.product.name}</span>
+                      <div className="cartpage-item-price">
+                        {item.product.discountPrice ? (
+                          <>
+                            <span className="text-muted text-decoration-line-through">
+                              {item.product.price} грн
+                            </span>
+                            <span className="ms-2">
+                              {item.product.discountPrice * item.quantity} грн
+                            </span>
+                          </>
+                        ) : (
+                          <span>{item.product.price * item.quantity} грн</span>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
                   <div className="cartpage-item-quantity">
                     <button
                       className="btn btn-sm btn-outline-secondary"
@@ -70,7 +84,6 @@ function CartPage() {
                       +
                     </button>
                   </div>
-                </Link>
               </div>
             );
           })}

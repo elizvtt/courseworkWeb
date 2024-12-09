@@ -135,7 +135,6 @@
   border-radius: 13px;
 }
 
-
 .blur-background {
   position: fixed;
   top: 0;
@@ -214,6 +213,23 @@
   margin-right: 10px;
 }
 
+.cart-item-count {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 22px;
+  height: 22px;
+  background-color: #d276ad; /* Цвет фона кружка */
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+
 .navbar-brand,
 .navbar-nav .nav-link {
   color: #3E3935;
@@ -239,7 +255,7 @@
 .dropdown-menu {
   display: block;
   position: absolute;
-  top: calc(100% + 2px);
+  top: calc(100%);
   left: 0;
   background-color: white;
   border: 1px solid #ddd;
@@ -254,13 +270,17 @@
   left: auto;
 }
 
+.nav-item .nav-link {
+  cursor: pointer;
+}
+
 .dropdown-menu-title {
   font-weight: 700;
   color: #3e3935;
 }
 
 .dropdown-item {
-  padding: 7px 15px;
+  padding: 7px 10px;
   border-radius: 7px;
   cursor: pointer;
 }

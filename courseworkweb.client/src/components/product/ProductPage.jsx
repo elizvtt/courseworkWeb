@@ -13,7 +13,6 @@ const ProductPage = () => {
   const { addToCart } = useCart();
 
   useEffect(() => {
-    // Загружаем только один продукт по его ID
     fetch(`http://localhost:5175/api/Products/${productId}`)
       .then((response) => response.json())
       .then((data) => {
@@ -33,11 +32,11 @@ const ProductPage = () => {
   };
 
   const handleImageClick = (imageUrl) => {
-    setCurrentImage(imageUrl); // Меняем главную фотографию
+    setCurrentImage(imageUrl);
   };
 
   if (!product) {
-    return <div>Loading...</div>; // Показываем, пока данные загружаются
+    return <div>Loading</div>;
   }
 
   return (
@@ -53,7 +52,7 @@ const ProductPage = () => {
                 src={`http://localhost:5175${img.imageUrl}`}
                 alt={product.name}
                 className="product-page-thumbnail"
-                onClick={() => handleImageClick(img.imageUrl)} // При клике меняем главную фотографию
+                onClick={() => handleImageClick(img.imageUrl)}
               />
             ))}
           </div>
@@ -71,6 +70,20 @@ const ProductPage = () => {
         <div className="product-page-column product-page-right">
           <div className="product-page-title-container">
             <p className="product-page-title">{product.name}</p>
+            <div className="product-availability-container">
+              {product.quantity > 0 ? (
+                <div className="availability-indicator">
+                  <div className="circle circle-green"></div>
+                  <span className="availability-text">Є в наявності</span>
+                </div>
+              ) : (
+                <div className="availability-indicator">
+                  <div className="circle circle-red"></div>
+                  <span className="availability-text">Немає в наявності</span>
+                </div>
+              )}
+            </div>
+            
           </div>
           <div className="product-page-price-container">
             <div className="product-page-price">
@@ -83,7 +96,10 @@ const ProductPage = () => {
                 `${product.price} грн`
               )}
             </div>
-            <button className="buy-button" onClick={() => handleAddToCart(product.id)}>
+            <button
+              className="buy-button add-to-cart-button"
+              disabled={product.quantity === 0}
+              onClick={() => handleAddToCart(product.id)}>
               Купити<img src="/bag.svg" alt="bag" className="bag-icon" />
             </button>
           </div>

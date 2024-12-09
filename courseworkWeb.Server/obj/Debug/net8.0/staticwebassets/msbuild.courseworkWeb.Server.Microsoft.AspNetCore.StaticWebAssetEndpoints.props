@@ -12,6 +12,150 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X0fRMF\u002Bx2YCGk7ETsA6kB7JgkSvYReEcWpRXBCIqm50="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"665835"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022X0fRMF\u002Bx2YCGk7ETsA6kB7JgkSvYReEcWpRXBCIqm50=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Dec 2024 19:32:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tWpkVCtRNfH0oVtD7sSB\u002BOz/UQhIF8CVsxRyZ07CQhc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14206"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tWpkVCtRNfH0oVtD7sSB\u002BOz/UQhIF8CVsxRyZ07CQhc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:05:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.z6hl3uzw5t.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z6hl3uzw5t"},{"Name":"integrity","Value":"sha256-tWpkVCtRNfH0oVtD7sSB\u002BOz/UQhIF8CVsxRyZ07CQhc="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14206"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tWpkVCtRNfH0oVtD7sSB\u002BOz/UQhIF8CVsxRyZ07CQhc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:05:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.ly33l6y3fq.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ly33l6y3fq"},{"Name":"integrity","Value":"sha256-zSMeV96VGgo6MX\u002BmVbAADVoQVlY8Z9iATtBEFVsBQr0="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10046"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zSMeV96VGgo6MX\u002BmVbAADVoQVlY8Z9iATtBEFVsBQr0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zSMeV96VGgo6MX\u002BmVbAADVoQVlY8Z9iATtBEFVsBQr0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10046"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zSMeV96VGgo6MX\u002BmVbAADVoQVlY8Z9iATtBEFVsBQr0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.bwi514qg2h.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bwi514qg2h"},{"Name":"integrity","Value":"sha256-FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5246"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Black Titanium.photo3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Black Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5246"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022FUDWNFvAMZbYnb28EFIuDNHnroy6mlxqxrIYkp5/8QA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.8diyph2c46.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8diyph2c46"},{"Name":"integrity","Value":"sha256-fE7zrb\u002BFAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16534"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fE7zrb\u002BFAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fE7zrb\u002BFAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16534"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fE7zrb\u002BFAK0/MzOzDeRUeeANAARpnrs6PA7MM5VvtR0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.17s7002oyk.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"17s7002oyk"},{"Name":"integrity","Value":"sha256-g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022g1UEDDWRljLGIhItXhtQmthyAFwuMIADudG6XUP3AvU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.dq9x4ssb8z.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dq9x4ssb8z"},{"Name":"integrity","Value":"sha256-haOOQWqatWNc\u002BvfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6850"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022haOOQWqatWNc\u002BvfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Desert Titanium.photo3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Desert Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-haOOQWqatWNc\u002BvfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6850"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022haOOQWqatWNc\u002BvfqJpKOv5zcJ8Y/WHGdXsmI7k3PJIY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:10:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.irg4wwkuyb.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"irg4wwkuyb"},{"Name":"integrity","Value":"sha256-InItziqszPGk56OcGHKKbuVuXXDJx\u002BcqBKrUkbqxEmY="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15518"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022InItziqszPGk56OcGHKKbuVuXXDJx\u002BcqBKrUkbqxEmY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-InItziqszPGk56OcGHKKbuVuXXDJx\u002BcqBKrUkbqxEmY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15518"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022InItziqszPGk56OcGHKKbuVuXXDJx\u002BcqBKrUkbqxEmY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.kz39g3xs7b.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kz39g3xs7b"},{"Name":"integrity","Value":"sha256-kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b\u002BQtRxxwrbU="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9780"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b\u002BQtRxxwrbU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b\u002BQtRxxwrbU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9780"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022kHe8CFZ7X6SSf2PKq/henajJnxYhNED5b\u002BQtRxxwrbU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9\u002BEROr8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6434"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9\u002BEROr8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.ykauzmk8rk.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max Natural Titanium.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ykauzmk8rk"},{"Name":"integrity","Value":"sha256-EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9\u002BEROr8="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max Natural Titanium.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6434"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022EuyKOn0yHK4IisSTiY8OUtue3EdpeSNeV7vb9\u002BEROr8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:14:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo1.o7r6ukeu3u.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max White Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o7r6ukeu3u"},{"Name":"integrity","Value":"sha256-vCLMTDu7eTbgbTNRqS3Bko8KnPG\u002BdBGYXwvAWNG2vdQ="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14760"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vCLMTDu7eTbgbTNRqS3Bko8KnPG\u002BdBGYXwvAWNG2vdQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max White Titanium.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vCLMTDu7eTbgbTNRqS3Bko8KnPG\u002BdBGYXwvAWNG2vdQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14760"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vCLMTDu7eTbgbTNRqS3Bko8KnPG\u002BdBGYXwvAWNG2vdQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max White Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10016"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:16:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo2.xmtf4row82.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max White Titanium.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xmtf4row82"},{"Name":"integrity","Value":"sha256-N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max White Titanium.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10016"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N2ydC4ETdkXKcG7oRXXsRB0PqinBenGVbg4YzNlMvpg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:16:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max.photo.l3bpn50sfp.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max.photo.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l3bpn50sfp"},{"Name":"integrity","Value":"sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max.photo.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Apple iPhone 16 Pro Max.photo.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max.photo.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Blue.photo1.3pagrtsfif.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

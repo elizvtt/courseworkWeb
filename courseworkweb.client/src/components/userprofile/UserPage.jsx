@@ -10,7 +10,6 @@ const UserPage = () => {
   const [selectedTab, setSelectedTab] = useState('info');
   const [clientData, setClientData] = useState(null);
 
-  // Функция форматирования телефона
   const formatPhoneNumber = (phoneNumber) => {
     const cleaned = phoneNumber.replace(/\D/g, '');
     const withCountryCode = cleaned.length === 10 ? `38${cleaned}` : cleaned;
@@ -37,10 +36,13 @@ const UserPage = () => {
     }
   }, [id, user?.id]);
 
-  // Функция выхода из аккаунта
   const handleLogOut = () => {
     logout();
     navigate('/');
+  };
+
+  const handleTabChange = (newTab) => {
+    setSelectedTab(newTab);
   };
 
   const getNameParts = (fullName) => {
@@ -127,9 +129,9 @@ const UserPage = () => {
   return (
     <div className="user-page">
       <div className="user-page-sidebar">
-        <button onClick={() => setSelectedTab('info')} className={selectedTab === 'info' ? 'active' : ''}>Контактна інформація</button>
-        <button onClick={() => setSelectedTab('orders')} className={selectedTab === 'orders' ? 'active' : ''}>Мої замовлення</button>
-        <button onClick={() => setSelectedTab('bonuses')} className={selectedTab === 'bonuses' ? 'active' : ''}>Мої бонуси</button>
+        <button onClick={() => handleTabChange('info')} className={selectedTab === 'info' ? 'active' : ''}>Контактна інформація</button>
+        <button onClick={() => handleTabChange('orders')} className={selectedTab === 'orders' ? 'active' : ''}>Мої замовлення</button>
+        <button onClick={() => handleTabChange('bonuses')} className={selectedTab === 'bonuses' ? 'active' : ''}>Мої бонуси</button>
         <button onClick={handleLogOut}>Вийти</button>
       </div>
       <div className="user-page-content">{renderTabContent()}</div>
