@@ -102,49 +102,6 @@ namespace courseworkWeb.Server.Controllers
             return _context.CartItems.Any(e => e.Id == id);
         }
 
-        // [HttpPost("Cart/{cartId}")]
-        // public async Task<ActionResult<CartItem>> AddToCart(int cartId, AddToCartDto dto)
-        // {
-        //     var cart = await _context.Carts
-        //                             .Include(c => c.CartItems)
-        //                             .ThenInclude(ci => ci.Product)
-        //                             .Include(c => c.Client)
-        //                             .FirstOrDefaultAsync(c => c.Id == cartId);
-
-        //     if (cart == null)
-        //     {
-        //         return NotFound(); 
-        //     }
-
-        //     var product = await _context.Products
-        //                                 .FirstOrDefaultAsync(p => p.Id == dto.ProductId);
-
-        //     // Создаем новый элемент корзины (CartItem)
-        //     var cartItem = new CartItem
-        //     {
-        //         CartId = cartId,
-        //         ProductId = dto.ProductId,
-        //         Quantity = dto.Quantity,
-        //         Cart = cart,
-        //         Product = product
-        //     };
-
-        //     // Добавляем элемент корзины в таблицу
-        //     _context.CartItems.Add(cartItem);
-
-        //     // Сохраняем изменения в базе данных
-        //     await _context.SaveChangesAsync();
-
-        //     // return CreatedAtAction("GetCartItem", new { id = cartItem.Id }, cartItem);
-        //     var createdCartItem = await _context.CartItems
-        //                                 .Include(ci => ci.Product)
-        //                                 .Include(ci => ci.Cart)
-        //                                 .ThenInclude(c => c.Client)
-        //                                 .FirstOrDefaultAsync(ci => ci.Id == cartItem.Id);
-
-        //     return CreatedAtAction("GetCartItem", new { id = createdCartItem.Id }, createdCartItem);
-        // }
-
         // POST: /api/CartItems/Cart/{cartId}
         [HttpPost("Cart/{cartId}")]
         public async Task<ActionResult<CartItem>> AddToCart(int cartId, AddToCartDto dto)
@@ -250,8 +207,6 @@ namespace courseworkWeb.Server.Controllers
 
             return NoContent();
         }
-
-
 
     }
 }
