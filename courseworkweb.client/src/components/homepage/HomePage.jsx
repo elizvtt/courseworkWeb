@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useUser } from '../UserContext';
+import { useCart } from '../CartContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './homepage.css';
 
@@ -15,7 +17,9 @@ function HomePage() {
     const [categories, setCategories] = useState([]);
     const [products, setProducts] = useState([]);
     const [brands, setBrands] = useState([]);
-    const [cartItems, setCartItems] = useState([]);
+
+    const { user} = useUser(); 
+    const { addToCart } = useCart();
 
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -130,27 +134,16 @@ function HomePage() {
             return 5;
         }
     }
-
-    const handleAddToCart = (product) => {
-        const updatedCart = [...cartItems];
-        const existingProductIndex = updatedCart.findIndex(item => item.id === product.id);
     
-        if (existingProductIndex >= 0) {
-            updatedCart[existingProductIndex].quantity += 1;
-        } else {
-            updatedCart.push({ ...product, quantity: 1 });
+    // Додавання в корзину
+    const handleAddToCart = (productId) => {
+        if (!user || !user.id) {
+            console.error("User is not logged in or user ID is missing.");
+            return;
         }
-    
-        setCartItems(updatedCart);
-        localStorage.setItem('cart', JSON.stringify(updatedCart));  // Сохраняем в localStorage
-    
-        // Теперь добавляем товар на сервер
-        addToCartOnServer(product); 
+        addToCart(user.id, productId);
     };
-    
-     
-     
-    
+   
 
     return (
         <div className="homepage">
@@ -200,7 +193,7 @@ function HomePage() {
                                     <div className="top-item-name">{product.name}</div>
                                     <div className="top-item-price">{product.discountPrice} грн</div>
                                     <div className="top-item-oldprice">{product.price} грн</div>
-                                    <button className="buy-button" onClick={() => handleAddToCart(product)}>
+                                    <button className="buy-button" onClick={() => handleAddToCart(product.id)}>
                                         <img src="/bag.svg" alt="bag" className="bag-icon" />
                                     </button>
                                 </div>
@@ -282,23 +275,25 @@ function HomePage() {
 
                     return (
                         <div key={product.id} className="top-item">
-                            <img
-                                src={`http://localhost:5175${primaryImage}`}
-                                alt={product.name}
-                                className="top-item-image"
-                            />
-                            <div className="top-item-name">{product.name}</div>
-                            <div className="top-item-price">
-                                {product.discountPrice ? (
-                                    <>
-                                        <span className="old-price">{product.price} грн</span>
-                                        <span className="discount-price">{product.discountPrice} грн</span>
-                                    </>
-                                ) : (
-                                    `${product.price} грн`
-                                )}
-                            </div>
-                            <button className="buy-button">
+                            <Link key={product.id} to={`/Products/${product.id}`} className="all-item">
+                                <img
+                                    src={`http://localhost:5175${primaryImage}`}
+                                    alt={product.name}
+                                    className="top-item-image"
+                                />
+                                <div className="top-item-name">{product.name}</div>
+                                <div className="top-item-price">
+                                    {product.discountPrice ? (
+                                        <>
+                                            <span className="old-price">{product.price} грн</span>
+                                            <span className="discount-price">{product.discountPrice} грн</span>
+                                        </>
+                                    ) : (
+                                        `${product.price} грн`
+                                    )}
+                                </div>
+                            </Link>
+                            <button className="buy-button" onClick={() => handleAddToCart(product.id)}>
                                 <img src="/bag.svg" alt="bag" className="bag-icon" />
                             </button>
                         </div>

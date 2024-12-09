@@ -1,14 +1,22 @@
-.container {
+.product-list {
+  background-color: #fbc1e446;
+  padding-top: 70px;  
+  margin-top: -30px;
+  padding-bottom: 50px;
+}
+
+.product-list-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 100px;
+  justify-content: center;
   margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 40px;
   gap: 60px;
 }
 
 .filters-container {
-  width: 40%;
+  width: 35%;
   font-size: 18px;
   padding: 40px;
   border-radius: 10px;
@@ -40,7 +48,7 @@ p {
 }
 
 .products-container {
-  width: 110%;
+  width: 100%;
   padding: 60px;
   border-radius: 10px;
   background-color: #f9f7f5;

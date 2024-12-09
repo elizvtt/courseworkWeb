@@ -77,10 +77,6 @@
       "PackagePath": "staticwebassets\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo4.webp"
     },
     {
-      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp",
-      "PackagePath": "staticwebassets\\images\\products\\Samsung Galaxy S24 FE S721B Yellow.photo5.webp"
-    },
-    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.courseworkWeb.Server.props",
       "PackagePath": "build\\courseworkWeb.Server.props"
     },

@@ -110,7 +110,7 @@ function Header() {
                   <span className="nav-link">Вітаємо, {user?.fullName}</span>
                   {isProfileDropdownOpen && (
                     <div className="dropdown-menu">
-                      <Link className="dropdown-item" to="/profile">Профіль</Link>
+                      <Link className="dropdown-item" to={`/Profile/${user.id}`}>Профіль</Link>
                       <Link className="dropdown-item" to="/orders">Мої замовлення</Link>
                       <Link className="dropdown-item" to="/bonuses">Мої бонуси</Link>
                       <button className="dropdown-item btn btn-link" onClick={handleLogOut}>
@@ -141,7 +141,6 @@ function Header() {
                       <>
                         <h3 className="dropdown-menu-title">Кошик</h3>
                         {cartItems.map((item) => {
-                          // console.log(item.product);
                           const product = products.find((p) => p.id === item.product.id);
                           const primaryImage = product?.productImages.find((img) => img.isPrimary)?.imageUrl || '/images/default.png';
                           return (

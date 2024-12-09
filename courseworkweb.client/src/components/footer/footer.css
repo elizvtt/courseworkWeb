@@ -3,6 +3,8 @@ footer {
     padding: 20px 10px;
     font-family: Arial, sans-serif;
     color: #3e3935;
+    box-shadow: 4px 0 6px rgba(107, 107, 107, 0.526);
+    border-radius: 10px;
 }
 
 .footer-container {

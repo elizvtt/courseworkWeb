@@ -1,6 +1,9 @@
 .homepage {
   background-color: #F9F7F5;
   padding-bottom: 50px;
+  margin-top: -20px;
+  padding-top: 15px;
+  
 }
 .ads-container {
   position: relative;
@@ -327,6 +330,10 @@ h3 {
   padding: 15px;
   margin-bottom: 15px;
   margin-left: 40px;
+}
+
+.all-item {
+  text-decoration: none;
 }
 
 .line-container {

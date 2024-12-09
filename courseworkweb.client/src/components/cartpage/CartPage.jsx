@@ -24,7 +24,10 @@ function CartPage() {
     fetchProducts();
   }, []);
 
-
+  const totalAmount = cartItems.reduce((total, item) => {
+    const product = products.find((p) => p.id === item.product.id);
+    return total + (product ? product.price * item.quantity : 0);
+  }, 0);
 
   return (
     <div className="cart-page">
@@ -42,34 +45,40 @@ function CartPage() {
             
             return (
               <div key={item.id} className="cartpage-item d-flex align-items-center">
-                <img
-                  src={`http://localhost:5175${primaryImage}`}
-                  alt={item.product.name}
-                  className="cartpage-image"
-                />
-                <div className="cartpage-item-details">
-                  <span className="cartpage-item-name">{item.product.name}</span>
-                  <span className="cartpage-item-price">{item.product.price * item.quantity} грн</span>
-                </div>
-                <div className="cartpage-item-quantity">
-                  <button
-                    className="btn btn-sm btn-outline-secondary"
-                    onClick={() => updateCartItem(item.id, item.quantity - 1)}
-                  >
-                    -
-                  </button>
-                  <span className="mx-2-cp">{item.quantity}</span>
-                  <button
-                    className="btn btn-sm btn-outline-secondary"
-                    onClick={() => updateCartItem(item.id, item.quantity + 1)}
-                  >
-                    +
-                  </button>
-                </div>
+                <Link to={`/Products/${item.product.id}`} className="cartpage-link d-flex align-items-center">
+                  <img
+                    src={`http://localhost:5175${primaryImage}`}
+                    alt={item.product.name}
+                    className="cartpage-image"
+                  />
+                  <div className="cartpage-item-details">
+                    <span className="cartpage-item-name">{item.product.name}</span>
+                    <span className="cartpage-item-price">{item.product.price * item.quantity} грн</span>
+                  </div>
+                  <div className="cartpage-item-quantity">
+                    <button
+                      className="btn btn-sm btn-outline-secondary"
+                      onClick={() => updateCartItem(item.id, item.quantity - 1)}
+                    >
+                      -
+                    </button>
+                    <span className="mx-2-cp">{item.quantity}</span>
+                    <button
+                      className="btn btn-sm btn-outline-secondary"
+                      onClick={() => updateCartItem(item.id, item.quantity + 1)}
+                    >
+                      +
+                    </button>
+                  </div>
+                </Link>
               </div>
             );
           })}
           <div className="cart-actions">
+            <div className="total-amount">
+              <span style={{fontWeight: 'bold'}}>Разом: </span>
+              <span>{totalAmount} грн</span>
+            </div>
             <button className="btn-cartpage" onClick={() => navigate('/checkout')}>
               Оформити замовлення
             </button>

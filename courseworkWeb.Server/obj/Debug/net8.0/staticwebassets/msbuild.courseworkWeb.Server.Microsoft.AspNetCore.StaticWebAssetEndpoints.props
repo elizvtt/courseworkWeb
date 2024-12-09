@@ -60,185 +60,173 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0\u002Bs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6566"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022dmr9J1INuy2KY50ny4uPICbDO0eDySAKNeyMDaNy0\u002Bs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 12:58:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.i5nkqi3bh3.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo1.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i5nkqi3bh3"},{"Name":"integrity","Value":"sha256-NoSvNeG2MdYjBGjLTpQXgag\u002BcODxV2gjxloL9judMMw="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"978"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022NoSvNeG2MdYjBGjLTpQXgag\u002BcODxV2gjxloL9judMMw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:10 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NoSvNeG2MdYjBGjLTpQXgag\u002BcODxV2gjxloL9judMMw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"978"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022NoSvNeG2MdYjBGjLTpQXgag\u002BcODxV2gjxloL9judMMw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:10 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lPPr\u002BmCMKQoJDbKujyoBvLkvyFQo70wm80LuXZEJpUo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7598"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022lPPr\u002BmCMKQoJDbKujyoBvLkvyFQo70wm80LuXZEJpUo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:40:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.hkdkov1huo.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.whxsrs3lhs.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"whxsrs3lhs"},{"Name":"integrity","Value":"sha256-lPPr\u002BmCMKQoJDbKujyoBvLkvyFQo70wm80LuXZEJpUo="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7598"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022lPPr\u002BmCMKQoJDbKujyoBvLkvyFQo70wm80LuXZEJpUo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:40:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.5vybalb34k.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hkdkov1huo"},{"Name":"integrity","Value":"sha256-Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO\u002BS0="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"606"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO\u002BS0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5vybalb34k"},{"Name":"integrity","Value":"sha256-v0yDnEAbQ6iIvEjKekYQ6y8iaegx/BmS7PbyOQo8huk="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3824"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022v0yDnEAbQ6iIvEjKekYQ6y8iaegx/BmS7PbyOQo8huk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo2.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO\u002BS0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"606"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Tzqxc5VUPDW7nO2SHctRflnvSQgFm1loyHNFdCMO\u002BS0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v0yDnEAbQ6iIvEjKekYQ6y8iaegx/BmS7PbyOQo8huk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3824"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022v0yDnEAbQ6iIvEjKekYQ6y8iaegx/BmS7PbyOQo8huk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.j4vnhjx7n3.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.rqeh3idgys.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo3.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j4vnhjx7n3"},{"Name":"integrity","Value":"sha256-U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rqeh3idgys"},{"Name":"integrity","Value":"sha256-HWBNkFKw5J3LVISlPdjY\u002Bs8QTjsmKld3ccWRQ\u002BCSC60="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4640"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022HWBNkFKw5J3LVISlPdjY\u002Bs8QTjsmKld3ccWRQ\u002BCSC60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo3.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo3.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022U6p2w2JzJOtPP5p3XidVmW2RUTy0MZg4FVuaLVVf9NM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:25:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HWBNkFKw5J3LVISlPdjY\u002Bs8QTjsmKld3ccWRQ\u002BCSC60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4640"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022HWBNkFKw5J3LVISlPdjY\u002Bs8QTjsmKld3ccWRQ\u002BCSC60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.5h2fy7clo7.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.7kkoaxba2q.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5h2fy7clo7"},{"Name":"integrity","Value":"sha256-t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:27:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7kkoaxba2q"},{"Name":"integrity","Value":"sha256-6eOwIm6ddsLR59sY97GrV3WrebxFBVrq3f1OgmWGYIQ="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4714"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00226eOwIm6ddsLR59sY97GrV3WrebxFBVrq3f1OgmWGYIQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo4.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022t2f/pWXdhNiBIt32kE5AY2RHU2rrglJ4NrmTkM4Qffo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:27:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6eOwIm6ddsLR59sY97GrV3WrebxFBVrq3f1OgmWGYIQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4714"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00226eOwIm6ddsLR59sY97GrV3WrebxFBVrq3f1OgmWGYIQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.qp9enosnif.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.izwvv25jxd.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo5.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qp9enosnif"},{"Name":"integrity","Value":"sha256-UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:27:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"izwvv25jxd"},{"Name":"integrity","Value":"sha256-vo\u002BleOMaMf8uNwwu64I\u002B6Yo/DOO\u002BGo/6FWyYrq9/htY="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4856"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vo\u002BleOMaMf8uNwwu64I\u002B6Yo/DOO\u002BGo/6FWyYrq9/htY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Graphite.photo5.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Graphite.photo5.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UoAdF00i/ij6UAwlsFybaOoDZYsSHfBs6dwCBQn9NKI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:27:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vo\u002BleOMaMf8uNwwu64I\u002B6Yo/DOO\u002BGo/6FWyYrq9/htY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4856"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vo\u002BleOMaMf8uNwwu64I\u002B6Yo/DOO\u002BGo/6FWyYrq9/htY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:41:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo1.ns93pah8s0.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo1.hadqig6aco.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ns93pah8s0"},{"Name":"integrity","Value":"sha256-V4Xr\u002BbfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5\u002BQs="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1338"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022V4Xr\u002BbfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5\u002BQs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hadqig6aco"},{"Name":"integrity","Value":"sha256-yTcPGb9zo94Ui58XAAtmgdKN6xY9MLmUuNJf82Sva\u002BQ="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9956"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022yTcPGb9zo94Ui58XAAtmgdKN6xY9MLmUuNJf82Sva\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo1.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V4Xr\u002BbfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5\u002BQs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1338"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022V4Xr\u002BbfRuDQFr3QbzMA79IUS5pWoIrI7fBxmbIC5\u002BQs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yTcPGb9zo94Ui58XAAtmgdKN6xY9MLmUuNJf82Sva\u002BQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9956"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022yTcPGb9zo94Ui58XAAtmgdKN6xY9MLmUuNJf82Sva\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo2.uroppmqs3i.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo2.o756c4p7ko.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uroppmqs3i"},{"Name":"integrity","Value":"sha256-qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH\u002BCOOCpCs="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH\u002BCOOCpCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:32 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o756c4p7ko"},{"Name":"integrity","Value":"sha256-5MsiNYSs158lnj/eQEY2qMjeFy0G0A3B1N5s88pTJFg="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5754"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225MsiNYSs158lnj/eQEY2qMjeFy0G0A3B1N5s88pTJFg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo2.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH\u002BCOOCpCs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022qrpeqVrfq5I4oLNzPGLPzjPxwsYIdG/H8bH\u002BCOOCpCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:32 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo3.nkplqbeefg.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo3.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nkplqbeefg"},{"Name":"integrity","Value":"sha256-tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"558"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5MsiNYSs158lnj/eQEY2qMjeFy0G0A3B1N5s88pTJFg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5754"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225MsiNYSs158lnj/eQEY2qMjeFy0G0A3B1N5s88pTJFg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo3.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"558"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tzp4ecA1/i5Y22A09vM7YhpmOFN5cELR9QF4Hr0DWCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YZdPBXqHVzhIs8Dzq6IWHR2Bp7gSb8RuObnRf0VMSlA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"122190"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YZdPBXqHVzhIs8Dzq6IWHR2Bp7gSb8RuObnRf0VMSlA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo4.9xivy71447.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo3.xctj8t6a3h.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xctj8t6a3h"},{"Name":"integrity","Value":"sha256-YZdPBXqHVzhIs8Dzq6IWHR2Bp7gSb8RuObnRf0VMSlA="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"122190"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YZdPBXqHVzhIs8Dzq6IWHR2Bp7gSb8RuObnRf0VMSlA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo4.7mbgtm8xkk.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9xivy71447"},{"Name":"integrity","Value":"sha256-jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:43:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7mbgtm8xkk"},{"Name":"integrity","Value":"sha256-z7OfeXMzRAtoJ8AD6czFhN347ytNZX6xUdi6wHO\u002BtxI="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6764"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022z7OfeXMzRAtoJ8AD6czFhN347ytNZX6xUdi6wHO\u002BtxI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo4.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:43:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo5.9xivy71447.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo5.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9xivy71447"},{"Name":"integrity","Value":"sha256-jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z7OfeXMzRAtoJ8AD6czFhN347ytNZX6xUdi6wHO\u002BtxI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6764"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022z7OfeXMzRAtoJ8AD6czFhN347ytNZX6xUdi6wHO\u002BtxI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:42:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo5.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jV/Q\u002B/iigcs8gqx60FrhnyBq2fKAhV3B/dZVoFy3j5A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:42:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wwjNwn0Zyq9YV23Nv6F4ajt9qMIH/QT8qNZLaU14Cls="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wwjNwn0Zyq9YV23Nv6F4ajt9qMIH/QT8qNZLaU14Cls=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:43:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.sok5vjx5ch.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo5.zo48nupwiu.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Mint.photo5.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zo48nupwiu"},{"Name":"integrity","Value":"sha256-wwjNwn0Zyq9YV23Nv6F4ajt9qMIH/QT8qNZLaU14Cls="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Mint.photo5.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wwjNwn0Zyq9YV23Nv6F4ajt9qMIH/QT8qNZLaU14Cls=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:43:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.kptvv4wh3o.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sok5vjx5ch"},{"Name":"integrity","Value":"sha256-BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1424"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kptvv4wh3o"},{"Name":"integrity","Value":"sha256-KPfCMi3W9Ow657ONT2eBeyCKVOB1r02ALl7dCMshLLc="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10512"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KPfCMi3W9Ow657ONT2eBeyCKVOB1r02ALl7dCMshLLc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:43:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo1.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1424"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022BA1Pl6eSg8DL9ObQ8FjbIHyTVY0CpaJ8R8F2IlXAFik=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KPfCMi3W9Ow657ONT2eBeyCKVOB1r02ALl7dCMshLLc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10512"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KPfCMi3W9Ow657ONT2eBeyCKVOB1r02ALl7dCMshLLc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:43:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.dr6436hzly.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dr6436hzly"},{"Name":"integrity","Value":"sha256-x3mQLfcCfs7vzvrVtkgX/55W11FiLZWLC1hQ78mRtxA="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5888"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022x3mQLfcCfs7vzvrVtkgX/55W11FiLZWLC1hQ78mRtxA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x3mQLfcCfs7vzvrVtkgX/55W11FiLZWLC1hQ78mRtxA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5888"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022x3mQLfcCfs7vzvrVtkgX/55W11FiLZWLC1hQ78mRtxA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.xs5xg1vixm.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo2.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xs5xg1vixm"},{"Name":"integrity","Value":"sha256-X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo2.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022X0C38oAAMKGgln58PN86oIeTtXc0XN3OToYERrV2g7U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.l2wyvqdnqt.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.bt8bqalktt.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo3.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l2wyvqdnqt"},{"Name":"integrity","Value":"sha256-3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O\u002BlVOZYBQT\u002BCc4="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"666"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00223Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O\u002BlVOZYBQT\u002BCc4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bt8bqalktt"},{"Name":"integrity","Value":"sha256-oewYYinX5KbzRVZOgBw1T4lbe0bPzKMOXIqGzAjj5/Q="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5472"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022oewYYinX5KbzRVZOgBw1T4lbe0bPzKMOXIqGzAjj5/Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo3.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo3.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O\u002BlVOZYBQT\u002BCc4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"666"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00223Y1RBmjCRZByJ4wDoed9Qa50Zlcm9O\u002BlVOZYBQT\u002BCc4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:46:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oewYYinX5KbzRVZOgBw1T4lbe0bPzKMOXIqGzAjj5/Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5472"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022oewYYinX5KbzRVZOgBw1T4lbe0bPzKMOXIqGzAjj5/Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.vl8l6uaosh.webp">
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.1j1lnoe38x.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vl8l6uaosh"},{"Name":"integrity","Value":"sha256-07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1028"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002207x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:47:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1j1lnoe38x"},{"Name":"integrity","Value":"sha256-A46Kon/z32\u002BNuhXymxxOAfKf/CfDpLU4YNJCKGENfgI="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6884"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022A46Kon/z32\u002BNuhXymxxOAfKf/CfDpLU4YNJCKGENfgI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo4.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo4.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-07x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1028"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002207x0KJZRtQNgs2P9BecQlPE73FYtS61ZtGpR2WZJUdI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:47:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.5j4opd6ydl.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo5.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5j4opd6ydl"},{"Name":"integrity","Value":"sha256-8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN\u002BXfU="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00228RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN\u002BXfU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:47:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Yellow.photo5.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Yellow.photo5.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN\u002BXfU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1054"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00228RmsQSLLCEoyXo5wXNazw512nqJFts1M4GHh2NN\u002BXfU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Dec 2024 13:47:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A46Kon/z32\u002BNuhXymxxOAfKf/CfDpLU4YNJCKGENfgI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6884"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022A46Kon/z32\u002BNuhXymxxOAfKf/CfDpLU4YNJCKGENfgI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 00:44:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
