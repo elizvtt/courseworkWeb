@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebCoursework.Server.Models;
@@ -25,7 +20,10 @@ namespace courseworkWeb.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrderItem>>> GetOrderItem()
         {
-            return await _context.OrderItems.ToListAsync();
+            return await _context.OrderItems
+                                        .Include(oi => oi.Product)
+                                            .ThenInclude(p => p.ProductImages)
+                                        .ToListAsync();
         }
 
         // GET: api/OrderItems/5
@@ -75,14 +73,14 @@ namespace courseworkWeb.Server.Controllers
 
         // POST: api/OrderItems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<OrderItem>> PostOrderItem(OrderItem orderItem)
-        {
-            _context.OrderItems.Add(orderItem);
-            await _context.SaveChangesAsync();
+        // [HttpPost]
+        // public async Task<ActionResult<OrderItem>> PostOrderItem(OrderItem orderItem)
+        // {
+        //     _context.OrderItems.Add(orderItem);
+        //     await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrderItem", new { id = orderItem.Id }, orderItem);
-        }
+        //     return CreatedAtAction("GetOrderItem", new { id = orderItem.Id }, orderItem);
+        // }
 
         // DELETE: api/OrderItems/5
         [HttpDelete("{id}")]
@@ -103,6 +101,44 @@ namespace courseworkWeb.Server.Controllers
         private bool OrderItemExists(int id)
         {
             return _context.OrderItems.Any(e => e.Id == id);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateSimpleOrderItem([FromBody] OrderItemCreateDto orderItemDto)
+        {
+            if (orderItemDto == null)
+            {
+                return BadRequest("Invalid order item data.");
+            }
+
+            var product = await _context.Products.FindAsync(orderItemDto.ProductId);
+            if (product == null)
+            {
+                return BadRequest("Invalid product ID.");
+            }
+
+
+            // Создаем сущность OrderItem из DTO
+            var orderItem = new OrderItem
+            {
+                OrderId = orderItemDto.OrderId,
+                ProductId = orderItemDto.ProductId,
+                Quantity = orderItemDto.Quantity,
+                PriceAtPurchase = orderItemDto.PriceAtPurchase,
+                Product = product
+            };
+
+            // Сохраняем в базу данных
+            try
+            {
+                _context.OrderItems.Add(orderItem);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetOrderItem", new { id = orderItem.Id }, orderItem);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
     }
 }

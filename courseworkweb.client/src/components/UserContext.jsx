@@ -19,15 +19,15 @@ export const UserProvider = ({ children }) => {
   useEffect(() => {
     if (user && authToken) {
       localStorage.setItem('user', JSON.stringify(user));
-      localStorage.setItem('auth_token', authToken); // Обновляем токен в localStorage
+      localStorage.setItem('auth_token', authToken);
     }
   }, [user, authToken]);
 
   const login = (userData, token) => {
     setUser(userData);
-    setAuthToken(token); // Сохраняем токен
+    setAuthToken(token);
     localStorage.setItem('user', JSON.stringify(userData));
-    localStorage.setItem('auth_token', token); // Сохраняем токен в localStorage
+    localStorage.setItem('auth_token', token);
   };
 
   const logout = () => {
@@ -38,7 +38,7 @@ export const UserProvider = ({ children }) => {
   };
 
   const isAuthenticated = () => {
-    return !!authToken; // Проверка на наличие токена
+    return !!authToken;
   };
 
   return (
@@ -47,31 +47,3 @@ export const UserProvider = ({ children }) => {
     </UserContext.Provider>
   );
 };
-
-
-
-// import React, { createContext, useState, useContext } from 'react';
-
-// const UserContext = createContext();
-
-// export const useUser = () => {
-//   return useContext(UserContext);
-// };
-
-// export const UserProvider = ({ children }) => {
-//   const [user, setUser] = useState(null);
-
-//   const login = (userData) => {
-//     setUser(userData);
-//   };
-
-//   const logout = () => {
-//     setUser(null);
-//   };
-
-//   return (
-//     <UserContext.Provider value={{ user, login, logout }}>
-//       {children}
-//     </UserContext.Provider>
-//   );
-// };

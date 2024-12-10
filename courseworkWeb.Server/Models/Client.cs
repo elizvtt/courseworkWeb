@@ -17,5 +17,9 @@ namespace WebCoursework.Server.Models
 
         [JsonIgnore]
         public IList<Cart> Carts { get; set; } = new List<Cart>();
+        
+        // [JsonIgnore]
+        public IList<Orders> Orders { get; set; } = new List<Orders>();
+
     }
 }

@@ -200,33 +200,33 @@
 
 @media (max-width: 850px) {
   .product-page-container {
-    flex-direction: column; /* Расположить столбцы вертикально */
+    flex-direction: column;
   }
 
   .product-page-left {
-    width: 100%; /* Ширина контейнера по всей ширине экрана */
-    margin-bottom: 20px; /* Отступ снизу для разделения */
+    width: 100%;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
 
   .product-page-right {
-    width: 100%; /* Ширина контейнера по всей ширине экрана */
+    width: 100%;
   }
 
   .product-page-images {
     width: 100%;
-    height: auto; /* Автоматическая высота, чтобы подстраиваться под ширину */
+    height: auto;
   }
 
   .product-page-main-image {
     width: 400px;
-    height: auto; /* Масштабирование изображения пропорционально */
+    height: auto;
   }
 
   .product-page-thumbnails {
-    flex-direction: row; /* Изменить расположение миниатюр на горизонтальное */
-    flex-wrap: wrap; /* Переносить миниатюры на новую строку, если они не помещаются */
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
   }
 

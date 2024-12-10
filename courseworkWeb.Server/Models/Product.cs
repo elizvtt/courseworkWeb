@@ -26,6 +26,9 @@ namespace WebCoursework.Server.Models
         [JsonIgnore]
         public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 
+        [JsonIgnore]
+        public ICollection<OrderItem> OrdersItems { get; set; } = new List<OrderItem>();
+
 
         public required IList<ProductAttribute> ProductAttributes { get; set; }
         public required IList<Review> Reviews{ get; set; }

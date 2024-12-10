@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -19,9 +20,13 @@ namespace WebCoursework.Server.Models
         public decimal TotalAmount { get; set; }
         public required string Status { get; set; } = "В обробці";
 
-        public required Client Client { get; set; }
-        public required DeliveryMethod DeliveryMethod { get; set; }
-        public required ICollection<OrderItem> OrderItems { get; set; }
+        [JsonIgnore]
+        public Client? Client { get; set; }
+        // public required Client Client { get; set; }
+
+        [JsonIgnore]
+        public DeliveryMethod? DeliveryMethod { get; set; }
+        public required ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
     }
 }

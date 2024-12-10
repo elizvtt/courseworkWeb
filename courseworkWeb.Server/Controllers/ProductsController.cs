@@ -17,19 +17,13 @@ namespace WebCoursework.Server.Controllers
         }
 
         // GET: api/Products
-        // [HttpGet]
-        // public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
-        // {
-        //     return await _context.Products.Include(p => p.Category).ToListAsync();
-        // }
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             var products = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.ProductImages) // Убедитесь, что Include используется
-                .ToListAsync();
+                                    .Include(p => p.Category)
+                                    .Include(p => p.ProductImages) // Убедитесь, что Include используется
+                                    .ToListAsync();
             return products;
         }
 

@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 import { useParams } from 'react-router-dom';
 import { useUser } from '../UserContext';
 import { useCart } from '../CartContext';
 import './productpage.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProductPage = () => {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
   const [currentImage, setCurrentImage] = useState(null);
+  const notify = () => toast.success("Товар додано у кошик!");
 
   const { user } = useUser();
   const { addToCart } = useCart();
@@ -29,6 +32,11 @@ const ProductPage = () => {
       return;
     }
     addToCart(user.id, productId);
+  };
+
+  const handleButtonClick = (productId) => {
+    handleAddToCart(productId);
+    notify();
   };
 
   const handleImageClick = (imageUrl) => {
@@ -99,7 +107,7 @@ const ProductPage = () => {
             <button
               className="buy-button add-to-cart-button"
               disabled={product.quantity === 0}
-              onClick={() => handleAddToCart(product.id)}>
+              onClick={() => handleButtonClick(product.id)}>
               Купити<img src="/bag.svg" alt="bag" className="bag-icon" />
             </button>
           </div>
@@ -108,6 +116,7 @@ const ProductPage = () => {
           </div>
         </div>
       </div>
+      <ToastContainer autoClose={3000} position="top-center"/>
     </div>
   );  
 };

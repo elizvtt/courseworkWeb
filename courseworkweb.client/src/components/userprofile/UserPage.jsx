@@ -28,7 +28,11 @@ const UserPage = () => {
           return response.json();
         })
         .then((data) => {
+          // const test = data?.order.?orderItems.?product;
+          console.log('Received data:', data); 
+          
           setClientData(data);
+          console.log('Client Data:',clientData?.orders);
         })
         .catch((error) => {
           console.error('Error loading user data:', error);
@@ -84,8 +88,6 @@ const UserPage = () => {
                 <p className="value">
                   {clientData?.phoneNumber ? formatPhoneNumber(clientData?.phoneNumber) : 'Не вказано'}
                 </p>
-
-                {/* <button className="edit-button">Редагувати</button> */}
               </>
             ) : (
               <p>Завантаження даних</p>
@@ -99,9 +101,31 @@ const UserPage = () => {
             {clientData?.orders?.length > 0 ? (
               clientData.orders.map((order) => (
                 <div key={order.id} className="order-item">
-                  <p>Дата: {order.date}</p>
+                  <p>Дата: {new Date(order.orderDate).toLocaleDateString('uk-UK', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12:false})}</p>
                   <p>Статус: {order.status}</p>
-                  <p>Загальна вартість: {order.totalPrice} грн</p>
+                  <p>Загальна вартість: {order.totalAmount} грн</p>
+
+                  <div className="user-page-order-items">
+                    {order.orderItems.map((item) => {
+                      const product = item.product;
+                      const primaryImage = product.productImages?.[0]?.imageUrl;  // Assuming the first image is the primary image
+                      
+                      return (
+                        <div key={item.id} className="user-page-order-item-details">
+                          {primaryImage && (
+                            <img 
+                              src={`http://localhost:5175${primaryImage}`} 
+                              alt={product.name} 
+                              className="user-page-order-item-image" 
+                            />
+                          )}
+                          <p>{product.name}</p>
+                        </div>
+                      );
+                    })}
+                  </div> 
+                 
+
                 </div>
               ))
             ) : (

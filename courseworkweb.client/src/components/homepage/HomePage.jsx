@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
 import { useUser } from '../UserContext';
 import { useCart } from '../CartContext';
@@ -30,6 +31,8 @@ function HomePage() {
     const productsRef = useRef(null);
     const categoriesRef = useRef(null);
     const brandsRef = useRef(null);
+
+    const notify = () => toast.success("Товар додано у кошик!");
 
     // Зміна розміру вікна
     useEffect(() => {
@@ -143,6 +146,11 @@ function HomePage() {
         }
         addToCart(user.id, productId);
     };
+
+    const handleButton = (productId) => {
+        handleAddToCart(productId);
+        notify();
+    };    
    
 
     return (
@@ -193,7 +201,7 @@ function HomePage() {
                                     <div className="top-item-name">{product.name}</div>
                                     <div className="top-item-price">{product.discountPrice} грн</div>
                                     <div className="top-item-oldprice">{product.price} грн</div>
-                                    <button className="buy-button" onClick={() => handleAddToCart(product.id)}>
+                                    <button className="buy-button" onClick={() => handleButton(product.id)}>
                                         <img src="/bag.svg" alt="bag" className="bag-icon" />
                                     </button>
                                 </div>
@@ -293,7 +301,7 @@ function HomePage() {
                                     )}
                                 </div>
                             </Link>
-                            <button className="buy-button" onClick={() => handleAddToCart(product.id)}>
+                            <button className="buy-button" onClick={() => handleButton(product.id)}>
                                 <img src="/bag.svg" alt="bag" className="bag-icon" />
                             </button>
                         </div>
@@ -307,6 +315,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
+            <ToastContainer autoClose={3000} position="top-center"/>
         </div>
     );
 }

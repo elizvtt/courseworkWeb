@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
     public class OrderItem
     {
         [Key]
-        public required int Id { get; set; }
+        public int Id { get; set; }
         
         [ForeignKey("Orders")]
         public int OrderId { get; set; }
@@ -14,10 +15,14 @@ namespace WebCoursework.Server.Models
         [ForeignKey("Product")]
         public int ProductId { get; set; }
         
-        public int Quantity { get; set; } // Кількість товару
-        public decimal PriceAtPurchase { get; set; } // Ціна на момент покупки
+        public int Quantity { get; set; }
+        public decimal PriceAtPurchase { get; set; }
 
-        public required Orders Order { get; set; } // Зв'язок із замовленням
-        public required Product Product { get; set; } // Зв'язок з товаром
+        [JsonIgnore]
+        public Orders? Order { get; set; }
+
+        // [JsonIgnore]
+        // public Product? Product { get; set; }
+        public required Product Product { get; set; }
     }
 }
