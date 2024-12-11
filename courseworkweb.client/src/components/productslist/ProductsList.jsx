@@ -259,7 +259,6 @@ const ProductList = () => {
                       )}
                     </div>
                   </Link>
-                  {/* <button className="buy-button" onClick={() => handleAddToCart(product.id)}> */}
                   <button className="buy-button" onClick={() => handleButtonClick(product.id)}>
                     <img src="/bag.svg" alt="bag" className="bag-icon" />
                   </button>

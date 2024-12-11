@@ -121,7 +121,7 @@
   margin-right: 20px;
 }
 
-.top-items,
+
 .categories,
 .brands {
   display: flex;
@@ -130,7 +130,7 @@
   margin-bottom: 15px;
 }
 
-.top-item,
+
 .category,
 .brand {
   position: relative;
@@ -143,28 +143,79 @@
   text-align: center;
   transition: transform 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);   
+  text-decoration: none;
+}
+ .brand {
+  font-size: 26px;
+  font-weight: 500;
+ }
+
+.top-items-list,
+.all-items-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
-.top-item {
+.top-product-item,
+.all-product-item,
+.view-more-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   width: 300px;
   height: 450px;
   border-radius: 10px;
-  overflow: hidden;
-  border: 2px solid transparent;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 3px solid transparent; 
   transition: border-color 0.3s ease;
 }
 
-.top-item:hover {
+.top-item-list,
+.all-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.top-product-item:hover,
+.all-product-item:hover,
+.view-more-link:hover {
   border-color: #a49e9a;
 }
 
-.top-item-image {
+.top-item-image,
+.all-item-image
+{
   width: 80%;
-  height: 80%;
+  height: 100%;
   padding: 10px;
   object-fit: contain;
-  border-radius: 10px;
-  display: block;
+}
+
+.top-item-price,
+.all-item-price {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.top-item-price,
+.all-item-price {
+  color: black;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  padding-right: 4px;
 }
 
 .buy-button {
@@ -180,6 +231,7 @@
   align-items: center;
   justify-content: center;
   margin: 5px;
+  z-index: 5;
 }
 
 .buy-button:hover {
@@ -212,16 +264,6 @@
 .top-item-name,
 .category span {
   font-weight: bold;
-}
-
-.top-item-price {
-  color: black;
-  font-weight: bold;
-}
-
-.top-item-oldprice {
-  text-decoration: line-through;
-  color: gray;
 }
 
 .moving-line-container {
@@ -281,7 +323,6 @@
 
 h3 {
   font-weight: bold;
-
 }
 
 .game-ad {
@@ -319,21 +360,7 @@ h3 {
 }
 
 .all-item-section {
-  margin-bottom: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.all-items {
-  display: flex;
-  gap: 50px;
-  padding: 15px;
-  margin-bottom: 15px;
-  margin-left: 40px;
-}
-
-.all-item {
-  text-decoration: none;
+  margin: 0px 20px 100px 20px;
 }
 
 .line-container {
@@ -342,21 +369,13 @@ h3 {
   height: 5px;
   background-color: #FB99D4;
   margin-top: 5px;
+  margin-bottom: 25px;
   border-radius: 2px;
 }
 
-.old-price {
-  text-decoration: line-through;
-  color: gray;
-  margin-right: 10px;
-}
-
-.discount-price {
-  color: Black;
-  font-weight: bold;
-}
 
 .view-more-link {
   text-decoration: none;
   font-size: 96px;
+  padding: 50px;
 }

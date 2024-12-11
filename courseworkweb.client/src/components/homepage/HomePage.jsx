@@ -183,30 +183,40 @@ function HomePage() {
                         style={{ width: `${scrollProgressProducts}%` }}
                     ></div>
                 </div>
-                <div
-                    className="top-items-container"
-                    ref={productsRef}
-                    onScroll={handleScrollProducts}
-                >
-                    <div className="top-items">
+                <div className="top-items-container" ref={productsRef} onScroll={handleScrollProducts}>
+                    <div className="top-items-list">
                         {products
-                            .filter((product) => product.discountPrice) // Виводяться тільки товари зі скидкою
+                            .filter((product) => product.discountPrice) 
                             .map((product) => {
                             const primaryImage =
                                 product.productImages.find((img) => img.isPrimary)?.imageUrl ||
                                 '/images/default.png';
                             return (
-                                <div key={product.id} className="top-item">
-                                    <img src={`http://localhost:5175${primaryImage}`} alt={product.name} className="top-item-image" />
-                                    <div className="top-item-name">{product.name}</div>
-                                    <div className="top-item-price">{product.discountPrice} грн</div>
-                                    <div className="top-item-oldprice">{product.price} грн</div>
-                                    <button className="buy-button" onClick={() => handleButton(product.id)}>
+                                <div key={product.id} className="top-product-item">
+                                    <Link key={product.id} to={`/Products/${product.id}`} className="top-item-list">
+                                        <img
+                                        src={`http://localhost:5175${primaryImage}`}
+                                        alt={product.name}
+                                        className="top-item-image"
+                                        />
+                                        <div className="top-item-name">{product.name}</div>
+                                        <div className="top-item-price">
+                                        {product.discountPrice ? (
+                                            <>
+                                            <span className="old-price">{product.price} грн</span>
+                                            <span className="discount-price">{product.discountPrice} грн</span>
+                                            </>
+                                        ) : (
+                                            `${product.price} грн`
+                                        )}
+                                        </div>
+                                    </Link>
+                                    <button className="buy-button" onClick={() => handleButtonClick(product.id)}>
                                         <img src="/bag.svg" alt="bag" className="bag-icon" />
                                     </button>
                                 </div>
                             );
-                        })}
+                        })}      
                     </div>
 
                 </div>
@@ -245,11 +255,7 @@ function HomePage() {
                         style={{ width: `${scrollProgressBrands}%` }}
                     ></div>
                 </div>
-                <div
-                    className="brands-container"
-                    ref={brandsRef}
-                    onScroll={handleScrollBrands}
-                >
+                <div className="brands-container" ref={brandsRef} onScroll={handleScrollBrands}>
                     <div className="brands">
                         {brands.map((brand, index) => (
                             <Link key={index} to={`/Products?brand=${brand}`} className="brand">
@@ -274,23 +280,24 @@ function HomePage() {
                 </h2>
                 <div className="line-container"></div>
 
-                <div className="all-items">
+                <div className="all-items-list">
                 {products
+                    .sort(() => Math.random() - 0.5)
                     .slice(0, getItemsToShow())
                     .map((product) => {
                         const primaryImage = product.productImages.find((img) => img.isPrimary)?.imageUrl ||
                             '/images/default.png';
 
                     return (
-                        <div key={product.id} className="top-item">
-                            <Link key={product.id} to={`/Products/${product.id}`} className="all-item">
+                        <div key={product.id} className="all-product-item">
+                            <Link key={product.id} to={`/Products/${product.id}`} className="all-item-list">
                                 <img
                                     src={`http://localhost:5175${primaryImage}`}
                                     alt={product.name}
-                                    className="top-item-image"
+                                    className="all-item-image"
                                 />
                                 <div className="top-item-name">{product.name}</div>
-                                <div className="top-item-price">
+                                <div className="all-item-price">
                                     {product.discountPrice ? (
                                         <>
                                             <span className="old-price">{product.price} грн</span>
@@ -307,16 +314,14 @@ function HomePage() {
                         </div>
                     );
                 })}
-
+                <Link to="/Products" className="view-more-link">
                     <div className="top-item view-more-container">
-                        <Link to="/Products" className="view-more-link">
-                            <span className="view-more-symbol">{'>'}</span>
-                        </Link>
+                        <span className="view-more-symbol">{'>'}</span>   
                     </div>
-                </div>
+                </Link>
             </div>
-            <ToastContainer autoClose={3000} position="top-center"/>
         </div>
+        <ToastContainer autoClose={3000} position="top-center"/></div>
     );
 }
 
