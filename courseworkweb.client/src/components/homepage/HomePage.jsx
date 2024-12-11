@@ -252,9 +252,9 @@ function HomePage() {
                 >
                     <div className="brands">
                         {brands.map((brand, index) => (
-                            <div key={index} className="brand">
-                                <span>{brand}</span>
-                            </div>
+                            <Link key={index} to={`/Products?brand=${brand}`} className="brand">
+                            <span>{brand}</span>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useUser } from '../UserContext';
 import { useCart } from '../CartContext';
 import Slider from 'rc-slider';
@@ -11,11 +11,15 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const selectedBrandFromUrl = queryParams.get('brand');
+
   const [filters, setFilters] = useState({
     price: { min: 0, max: 100000 },
     name: '',
     sortBy: 'name-asc',
-    selectedBrands: [],
+    selectedBrands: selectedBrandFromUrl ? [selectedBrandFromUrl] : []
   });
 
   const [availableBrands, setAvailableBrands] = useState([]);
@@ -61,6 +65,13 @@ const ProductList = () => {
   const handleApplyFilters = () => {
     setAppliedFilters(filters);
   };
+    // Обработчик изменения фильтра
+    const handleBrandChange = (e, brand) => {
+      const updatedBrands = e.target.checked
+        ? [...filters.selectedBrands, brand]
+        : filters.selectedBrands.filter((b) => b !== brand);
+      setFilters({ ...filters, selectedBrands: updatedBrands });
+    };
 
   // скасування фильтра
   const handleResetFilters = () => {
@@ -197,7 +208,7 @@ const ProductList = () => {
             </label>
           </div>
 
-           {/* Фильтр по брендам */}
+          {/* Фильтр по брендам */}
           <div className="filter-brand">
             <h4>Бренд</h4>
             {availableBrands.map((brand) => (
@@ -205,12 +216,7 @@ const ProductList = () => {
                 <input
                   type="checkbox"
                   checked={filters.selectedBrands.includes(brand)}
-                  onChange={(e) => {
-                    const updatedBrands = e.target.checked
-                      ? [...filters.selectedBrands, brand]
-                      : filters.selectedBrands.filter((b) => b !== brand);
-                    setFilters({ ...filters, selectedBrands: updatedBrands });
-                  }}
+                  onChange={(e) => handleBrandChange(e, brand)}
                 />
                 {brand}
               </label>
