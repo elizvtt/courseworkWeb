@@ -27,22 +27,23 @@
   font-weight: 500;
 }
 
-.button {
+.signup-btn {
   margin-top: 20px;
   padding: 10px 25px;
   font-size: 18px;
   font-weight: 500;
-  background-color: #3E3935;
+  color: #efe5dd;
+  background-color: #423c3a;
   border: #3E3935;
+  border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
-.button:hover {
+.signup-btn:hover {
   background-color: #5f5751;
-  border: #3E3935;
 }
 
 .modal-login {

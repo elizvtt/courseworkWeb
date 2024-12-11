@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
 import { useUser } from '../UserContext';
@@ -8,12 +8,12 @@ import './homepage.css';
 
 function HomePage() {
     const ads = [
-        'Ad 1 Content',
-        'Ad 2 Content',
-        'Ad 3 Content',
-        'Ad 4 Content',
-        'Ad 5 Content',
-        'Ad 6 Content',
+        '/public/ad1.jpg',
+        '/public/ad2.jpg',
+        '/public/ad3.jpg',
+        '/public/ad4.jpg',
+        '/public/ad5.jpg',
+        '/public/ad6.jpg',
     ];
     const [categories, setCategories] = useState([]);
     const [products, setProducts] = useState([]);
@@ -98,6 +98,11 @@ function HomePage() {
         return dots;
     };
 
+    const filteredProducts = useMemo(() => 
+        products.filter((product) => product.discountPrice), 
+        [products]
+    );
+
     // Прокрутка товарів
     const handleScrollProducts = () => {
         const scrollWidth = productsRef.current.scrollWidth;
@@ -141,7 +146,7 @@ function HomePage() {
     // Додавання в корзину
     const handleAddToCart = (productId) => {
         if (!user || !user.id) {
-            console.error("User is not logged in or user ID is missing.");
+            alert("Будь ласка, зареєструйтесь для покупки товару.");
             return;
         }
         addToCart(user.id, productId);
@@ -149,7 +154,10 @@ function HomePage() {
 
     const handleButton = (productId) => {
         handleAddToCart(productId);
-        notify();
+        // notify();
+        if (user && user.id) {
+            notify();
+        }
     };    
    
 
@@ -161,15 +169,21 @@ function HomePage() {
                     <img src="/arrow.svg" alt="Previous" />
                 </button>
                 <div className="ads-content">
-                    <div className="ad">{ads[currentIndex]}</div>
+                    <div className="ad">
+                        {/* Отображаем картинку вместо текста */}
+                        <img src={ads[currentIndex]} alt={`Ad ${currentIndex + 1}`} />
+                    </div>
                     {!isSmallScreen && currentIndex + 1 < ads.length && (
-                        <div className="ad">{ads[currentIndex + 1]}</div>
+                        <div className="ad">
+                            <img src={ads[currentIndex + 1]} alt={`Ad ${currentIndex + 2}`} />
+                        </div>
                     )}
                 </div>
                 <button className="arrow right-arrow" onClick={handleNext}>
                     <img src="/arrow.svg" alt="Next" />
                 </button>
             </div>
+
             <div className="dots-container">
                 {renderDots()}
             </div>
@@ -183,14 +197,14 @@ function HomePage() {
                         style={{ width: `${scrollProgressProducts}%` }}
                     ></div>
                 </div>
-                <div className="top-items-container" ref={productsRef} onScroll={handleScrollProducts}>
+                <div 
+                    className="top-items-container"
+                    ref={productsRef}
+                    onScroll={handleScrollProducts}
+                >
                     <div className="top-items-list">
-                        {products
-                            .filter((product) => product.discountPrice) 
-                            .map((product) => {
-                            const primaryImage =
-                                product.productImages.find((img) => img.isPrimary)?.imageUrl ||
-                                '/images/default.png';
+                        {filteredProducts.map((product) => {
+                            const primaryImage = product.productImages.find((img) => img.isPrimary)?.imageUrl || '/images/default.png';
                             return (
                                 <div key={product.id} className="top-product-item">
                                     <Link key={product.id} to={`/Products/${product.id}`} className="top-item-list">
@@ -201,17 +215,11 @@ function HomePage() {
                                         />
                                         <div className="top-item-name">{product.name}</div>
                                         <div className="top-item-price">
-                                        {product.discountPrice ? (
-                                            <>
                                             <span className="old-price">{product.price} грн</span>
                                             <span className="discount-price">{product.discountPrice} грн</span>
-                                            </>
-                                        ) : (
-                                            `${product.price} грн`
-                                        )}
                                         </div>
                                     </Link>
-                                    <button className="buy-button" onClick={() => handleButtonClick(product.id)}>
+                                    <button className="buy-button" onClick={() => handleButton(product.id)}>
                                         <img src="/bag.svg" alt="bag" className="bag-icon" />
                                     </button>
                                 </div>

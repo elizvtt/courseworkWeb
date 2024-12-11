@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "khco6/v7zHCEF00b7q6TQPLWzPDU4WsyJakCyPdJvtQ=",
+  "Hash": "HteGKwMUDdNtV9DfLi5/PcGWXEIdwOgff2BQCJhbSG0=",
   "Source": "courseworkWeb.Server",
   "BasePath": "_content/courseworkWeb.Server",
   "Mode": "Default",
@@ -300,6 +300,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Lenovo IdeaPad 1 15AMN7.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33f7xpc2di",
+      "Integrity": "4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Lenovo IdeaPad 1 15AMN7.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5dxmczx9b9",
+      "Integrity": "l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Lenovo IdeaPad 1 15AMN7.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3vith3fdv",
+      "Integrity": "5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Lenovo IdeaPad 1 15AMN7.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "whj6m9bqlb",
+      "Integrity": "NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo5.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Lenovo IdeaPad 1 15AMN7.photo5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "leokdw9o0n",
+      "Integrity": "cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo5.webp"
     },
     {
       "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Samsung Galaxy S24 FE S721B Blue.photo1.webp",
@@ -1744,6 +1849,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo1.33f7xpc2di.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:35:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33f7xpc2di"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Lenovo IdeaPad 1 15AMN7.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:35:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo2.5dxmczx9b9.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dxmczx9b9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Lenovo IdeaPad 1 15AMN7.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo3.a3vith3fdv.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3vith3fdv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Lenovo IdeaPad 1 15AMN7.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo4.whj6m9bqlb.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "whj6m9bqlb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Lenovo IdeaPad 1 15AMN7.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo5.leokdw9o0n.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "leokdw9o0n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Lenovo IdeaPad 1 15AMN7.photo5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Lenovo IdeaPad 1 15AMN7.photo5.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8="
         }
       ]
     },

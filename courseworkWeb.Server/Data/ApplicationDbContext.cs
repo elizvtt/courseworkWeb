@@ -18,7 +18,6 @@ namespace courseworkWeb.Server.Data
         public DbSet<Product> Products { get; set; } = default!;
         public DbSet<ProductImage> ProductImages { get; set; } = default!;
         public DbSet<ProductAttribute> ProductAttributes{ get; set; } = default!;
-        public DbSet<Review> Reviews{ get; set; } = default!;
         public DbSet<CartItem> CartItems { get; set; } = default!;
         public DbSet<Orders> Orders { get; set; } = default!;
         public DbSet<DeliveryMethod> DeliveryMethods { get; set; } = default!;

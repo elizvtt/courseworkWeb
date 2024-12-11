@@ -234,6 +234,96 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max.photo.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Lenovo IdeaPad 1 15AMN7.photo1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>33f7xpc2di</Fingerprint>
+      <Integrity>4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Lenovo IdeaPad 1 15AMN7.photo2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5dxmczx9b9</Fingerprint>
+      <Integrity>l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k+oD6B9r9uuZk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Lenovo IdeaPad 1 15AMN7.photo3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3vith3fdv</Fingerprint>
+      <Integrity>5n61eRC3DiZzknH6/PpHH6s5xZUY+4LWMNosF6asIFM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Lenovo IdeaPad 1 15AMN7.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>whj6m9bqlb</Fingerprint>
+      <Integrity>NHLROaMBV1BAxbumx2+2kyLFNn5k670tv0YkEGzGw/I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Lenovo IdeaPad 1 15AMN7.photo5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>leokdw9o0n</Fingerprint>
+      <Integrity>cwr2wYx0AO3Gx4fYCFJYxlaMHbac52+42oLPMjf4vL8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo1.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>courseworkWeb.Server</SourceId>

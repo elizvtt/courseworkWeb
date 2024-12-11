@@ -156,6 +156,66 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo1.33f7xpc2di.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"33f7xpc2di"},{"Name":"integrity","Value":"sha256-4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54078"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00224bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54078"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00224bJcYh4VM6r2aTFkoChZBM8iOAbp821QlSxiDNRMASY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo2.5dxmczx9b9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5dxmczx9b9"},{"Name":"integrity","Value":"sha256-l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k\u002BoD6B9r9uuZk="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40036"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k\u002BoD6B9r9uuZk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k\u002BoD6B9r9uuZk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40036"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022l2XXFOgfp63Q8ng1EX6bp93yEnFdp2k\u002BoD6B9r9uuZk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo3.a3vith3fdv.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a3vith3fdv"},{"Name":"integrity","Value":"sha256-5n61eRC3DiZzknH6/PpHH6s5xZUY\u002B4LWMNosF6asIFM="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59496"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225n61eRC3DiZzknH6/PpHH6s5xZUY\u002B4LWMNosF6asIFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5n61eRC3DiZzknH6/PpHH6s5xZUY\u002B4LWMNosF6asIFM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"59496"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225n61eRC3DiZzknH6/PpHH6s5xZUY\u002B4LWMNosF6asIFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo4.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo4.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NHLROaMBV1BAxbumx2\u002B2kyLFNn5k670tv0YkEGzGw/I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7316"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022NHLROaMBV1BAxbumx2\u002B2kyLFNn5k670tv0YkEGzGw/I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo4.whj6m9bqlb.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo4.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"whj6m9bqlb"},{"Name":"integrity","Value":"sha256-NHLROaMBV1BAxbumx2\u002B2kyLFNn5k670tv0YkEGzGw/I="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo4.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7316"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022NHLROaMBV1BAxbumx2\u002B2kyLFNn5k670tv0YkEGzGw/I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo5.leokdw9o0n.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo5.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"leokdw9o0n"},{"Name":"integrity","Value":"sha256-cwr2wYx0AO3Gx4fYCFJYxlaMHbac52\u002B42oLPMjf4vL8="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo5.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42024"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022cwr2wYx0AO3Gx4fYCFJYxlaMHbac52\u002B42oLPMjf4vL8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo5.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo5.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cwr2wYx0AO3Gx4fYCFJYxlaMHbac52\u002B42oLPMjf4vL8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42024"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022cwr2wYx0AO3Gx4fYCFJYxlaMHbac52\u002B42oLPMjf4vL8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:36:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Samsung Galaxy S24 FE S721B Blue.photo1.3pagrtsfif.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung Galaxy S24 FE S721B Blue.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

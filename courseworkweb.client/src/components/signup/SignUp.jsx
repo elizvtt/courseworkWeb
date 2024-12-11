@@ -47,8 +47,45 @@ function Signup() {
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
+  const validateForm = () => {
+    const errors = {};
+    const phoneRegex = /^[0-9]{10}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!formData.firstName) {
+      errors.firstName = 'Поле "Прізвище" не може бути порожнім.';
+    }
+    if (!formData.lastName) {
+      errors.lastName = 'Поле "Ім`я" не може бути порожнім.';
+    }
+    if (!formData.middleName) {
+      errors.middleName = 'Поле "По батькові" не може бути порожнім.';
+    }
+    if (!formData.dateBirth) {
+      errors.dateBirth = 'Поле "Дата народження" не може бути порожнім.';
+    }
+    if (!formData.email || !emailRegex.test(formData.email)) {
+      errors.email = 'Введіть коректну електронну пошту.';
+    }
+    if (!formData.phoneNumber || !phoneRegex.test(formData.phoneNumber)) {
+      errors.phoneNumber = 'Введіть коректний номер телефону.';
+    }
+    if (!formData.password) {
+      errors.password = 'Пароль не може бути порожнім.';
+    } else if (formData.password.length < 6) {
+      errors.password = 'Пароль повинен бути не менше 6 символів.';
+    }
+
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      return; 
+    }
 
     const formattedDateBirth = new Date(formData.dateBirth).toISOString();
     const fullName = `${formData.firstName} ${formData.lastName} ${formData.middleName}`;
@@ -178,7 +215,7 @@ function Signup() {
                   style={{ backgroundColor: '#F9F7F5', borderColor: '#F9F7F5' }}
                 />
               </div>
-              <button type="submit" className="btn btn-primary button">Register</button>
+              <button type="submit" className="signup-btn">Реєстрація</button>
               <div className="modal-login">
                 <h5>Вже маєте аккаунт?</h5>
                 <p>

@@ -29,7 +29,7 @@ const ProductPage = () => {
 
   const handleAddToCart = (productId) => {
     if (!user || !user.id) {
-      console.error('User is not logged in or user ID is missing.');
+      alert("Будь ласка, зареєструйтесь для покупки товару.");
       return;
     }
     addToCart(user.id, productId);
@@ -37,7 +37,9 @@ const ProductPage = () => {
 
   const handleButtonClick = (productId) => {
     handleAddToCart(productId);
-    notify();
+    if (user && user.id) {
+      notify();
+  }
   };
 
   const handleImageClick = (imageUrl) => {
@@ -112,8 +114,8 @@ const ProductPage = () => {
                 </div>
               )}
             </div>
-            
           </div>
+
           <div className="product-page-price-container">
             <div className="product-page-price">
               {product.discountPrice ? (
@@ -132,7 +134,13 @@ const ProductPage = () => {
               Купити<img src="/bag.svg" alt="bag" className="bag-icon" />
             </button>
           </div>
+          <div className="product-page-guarantee-container">
+            <p>Гарантія {product.guarantee} місяців</p>
+          </div>
+          
         </div>
+        
+
         <div className="product-page-feature-container">
             <h2>Характеристика</h2>
             {Object.keys(attributeGroups).map((groupId) => (

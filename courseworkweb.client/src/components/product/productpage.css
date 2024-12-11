@@ -130,6 +130,17 @@
   width: 40px;
 }
 
+.product-page-guarantee-container {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(87, 87, 87, 0.18);  
+  border-radius: 13px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3e3935;
+
+}
+
 .product-page-feature-container {
   display: flex;
   flex-direction: column;
