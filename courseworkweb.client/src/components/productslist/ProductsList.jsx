@@ -14,6 +14,7 @@ const ProductList = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const selectedBrandFromUrl = queryParams.get('brand');
+
   const categoryId = queryParams.get('categoryId');
   const subcategoryId = queryParams.get('subcategoryId');
 
@@ -126,29 +127,27 @@ const ProductList = () => {
       selectedBrands: [],
     });
   };
+  console.log('categoryId ', categoryId)
+    console.log('subcategoryId ', subcategoryId)
   
   // функція фільтрації
   const filteredProducts = products
     .filter((product) => {
-
-      if (categoryId) {
-        const isInCategory = product.categoryId === parseInt(categoryId);
-        const isInParentCategory = product.parentId && product.parentId === parseInt(categoryId);
-      
-        if (!isInCategory && !isInParentCategory) {
-          return false;
-        }
-      }
-  
+      // Проверяем подкатегорию
       if (subcategoryId) {
-        const isInSubcategory = product.subcategoryId === parseInt(subcategoryId);
-        
-        if (!isInSubcategory) {
-          console.log('Product does not belong to the selected subcategory');
-          return false;
-        }
+        return product.categoryId === parseInt(subcategoryId, 10);
       }
 
+      // Проверяем категорию и родительскую категорию
+      if (categoryId) {
+        return product.category.id === parseInt(categoryId, 10) ||
+              product.category.parentId === parseInt(categoryId, 10);
+      }
+
+      return true; // Если нет фильтрации по категориям
+    })
+
+    .filter((product) => {
       return (
         product.price >= appliedFilters.price.min &&
         product.price <= appliedFilters.price.max &&

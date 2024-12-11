@@ -231,15 +231,24 @@ function HomePage() {
                         style={{ width: `${scrollProgressCategories}%` }}
                     ></div>
                 </div>
-                <div
-                    className="categories-container"
-                    ref={categoriesRef}
-                    onScroll={handleScrollCategories}
-                >
+                <div className="categories-container" ref={categoriesRef} onScroll={handleScrollCategories}>
                     <div className="categories">
                         {categories.map((category) => (
                             <div key={category.id} className="category">
-                                <span>{category.name}</span>
+                                <Link to={`/Products?categoryId=${category.id}`}>
+                                    <span>{category.name}</span>
+                                </Link>
+                                {category.subcategories && category.subcategories.length > 0 && (
+                                    <div className="subcategories">
+                                        {category.subcategories.map((subcategory) => (
+                                            <div key={subcategory.id} className="subcategory">
+                                                <Link to={`/Products?categoryId=${subcategory.id}`}>
+                                                    <span>{subcategory.name}</span>
+                                                </Link>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
                         ))}
                     </div>
@@ -265,14 +274,6 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-
-            <div className="game-section">
-                <h3>Вигравай та отримуй бонуси на наступну покупку</h3>
-                <div className="game-ad">
-                    <button className="game-button">Грати</button>
-                </div>
-            </div>
-
 
             <div className="all-item-section">
                 <h2 className="section-title">

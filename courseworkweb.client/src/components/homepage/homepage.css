@@ -130,7 +130,6 @@
   margin-bottom: 15px;
 }
 
-
 .category,
 .brand {
   position: relative;
@@ -145,10 +144,11 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);   
   text-decoration: none;
 }
- .brand {
+
+.brand {
   font-size: 26px;
   font-weight: 500;
- }
+}
 
 .top-items-list,
 .all-items-list {
@@ -255,6 +255,10 @@
   border-radius: 300px;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
+}
+
+.category a {
+  text-decoration: none;
 }
 
 .brand {

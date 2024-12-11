@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 function Footer() {
@@ -25,9 +26,11 @@ function Footer() {
             <div className="footer-center">
                 <h3 className="footer-title">Категорії</h3>
                 <div className="footer-categories">
-                    {categories.filter(category => category.parentId === null).map((category, index) => (
-                    <div key={index} className="footer-category">
-                        {category.name}
+                    {categories.filter(category => category.parentId === null).map((category) => (
+                    <div key={category.id} className="footer-category">
+                        <Link to={`/Products?categoryId=${category.id}`}>
+                            <span>{category.name}</span>
+                        </Link>
                     </div>
                     ))}
                 </div>
