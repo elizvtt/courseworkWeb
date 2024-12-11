@@ -28,7 +28,6 @@ const UserPage = () => {
           return response.json();
         })
         .then((data) => {
-          // const test = data?.order.?orderItems.?product;
           console.log('Received data:', data); 
           
           setClientData(data);
@@ -99,35 +98,52 @@ const UserPage = () => {
           <div className="tab-content">
             <h2>Мої замовлення</h2>
             {clientData?.orders?.length > 0 ? (
-              clientData.orders.map((order) => (
-                <div key={order.id} className="order-item">
-                  <p>Дата: {new Date(order.orderDate).toLocaleDateString('uk-UK', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12:false})}</p>
-                  <p>Статус: {order.status}</p>
-                  <p>Загальна вартість: {order.totalAmount} грн</p>
+              clientData.orders.map((order) => {
+                let statusClass = '';
+                switch (order.status) {
+                  case 'В обробці':
+                    statusClass = 'status-processing';
+                    break;
+                  case 'Відправлено':
+                    statusClass = 'status-shipped';
+                    break;
+                  case 'Доставлено':
+                    statusClass = 'status-delivered';
+                    break;
+                  default:
+                    statusClass = '';
+                }
 
-                  <div className="user-page-order-items">
-                    {order.orderItems.map((item) => {
-                      const product = item.product;
-                      const primaryImage = product.productImages?.[0]?.imageUrl;  // Assuming the first image is the primary image
+                return (
+                  <div key={order.id} className="order-item">
+                    <div className={`order-item-status ${statusClass}`}>
+                      <p className="order-item-info">Замовлення №{order.id}, {new Date(order.orderDate).toLocaleDateString('uk-UK', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12:false})}</p>
+                      <p> {order.status}</p>
+                    </div>
+                    <div className="order-item-cost-item">
+                      <p className="order-item-cost"> {order.totalAmount} грн</p>
+                    </div>
+                    
                       
-                      return (
-                        <div key={item.id} className="user-page-order-item-details">
-                          {primaryImage && (
-                            <img 
-                              src={`http://localhost:5175${primaryImage}`} 
-                              alt={product.name} 
-                              className="user-page-order-item-image" 
-                            />
-                          )}
-                          <p>{product.name}</p>
-                        </div>
-                      );
-                    })}
-                  </div> 
-                 
-
-                </div>
-              ))
+                      <div className="user-page-order-items">
+                        {order.orderItems.map((item) => {
+                          const product = item.product;
+                          const primaryImage = product?.productImages.find((img) => img.isPrimary)?.imageUrl || '/images/default.png';
+                          
+                          return (
+                            <div key={item.id} className="user-page-order-item-details">
+                              <img 
+                                src={`http://localhost:5175${primaryImage}`} 
+                                alt={product.name} 
+                                className="user-page-order-item-image" 
+                              />
+                            </div>
+                          );
+                        })}
+                      </div> 
+                  </div>
+                )
+              })
             ) : (
               <div>
                 <p>У вас поки що немає замовлень</p>
@@ -140,9 +156,9 @@ const UserPage = () => {
         return (
           <div className="tab-content">
             <h2>Мої бонуси</h2>
-            <p>Поточний баланс: {clientData?.bonusBalance || 0} бонусів</p>
-            <p> Робіть замовлення, залишайте відгуки на товари та грайте в нашу гру щоб накопичити бонуси.<br />
-              За накопичені бонуси отримуйте кешбек до -15% на всі товари!</p>
+            <p>Поточний баланс: {clientData?.bonusPoints || 0} бонусів</p>
+            <p> Робіть замовлення та залишайте відгуки на товари щоб накопичити бонуси.<br />
+              За накопичені бонуси отримуйте кешбек до -20% на всі товари!</p>
           </div>
         );
       default:

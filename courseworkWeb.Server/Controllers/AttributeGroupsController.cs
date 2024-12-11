@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebCoursework.Server.Models;
@@ -25,7 +21,10 @@ namespace courseworkWeb.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AttributeGroup>>> GetAttributeGroup()
         {
-            return await _context.AttributeGroups.ToListAsync();
+            return await _context.AttributeGroups
+                                        .Include(ag => ag.Attributes)
+                                            .ThenInclude(a => a.Category)
+                                        .ToListAsync();
         }
 
         // GET: api/AttributeGroups/5

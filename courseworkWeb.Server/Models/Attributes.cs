@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 namespace WebCoursework.Server.Models
 {
@@ -16,7 +16,8 @@ namespace WebCoursework.Server.Models
         [ForeignKey("Category")]
         public required int CategoryId { get; set; }
 
-        public required AttributeGroup AttributeGroup{ get; set; }
+        [JsonIgnore]
+        public AttributeGroup? AttributeGroup{ get; set; }
         public required Category Category{ get; set; }
     }
 }

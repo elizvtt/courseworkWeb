@@ -22,7 +22,10 @@ namespace WebCoursework.Server.Controllers
         {
             var products = await _context.Products
                                     .Include(p => p.Category)
-                                    .Include(p => p.ProductImages) // Убедитесь, что Include используется
+                                    .Include(p => p.ProductImages)
+                                    .Include(p => p.ProductAttributes)
+                                        .ThenInclude(pa => pa.Attribute)
+                                        .ThenInclude(a => a.AttributeGroup)
                                     .ToListAsync();
             return products;
         }
@@ -35,6 +38,9 @@ namespace WebCoursework.Server.Controllers
             var product = await _context.Products
                                             .Include(p => p.Category)
                                             .Include(p => p.ProductImages)
+                                            .Include(p => p.ProductAttributes)
+                                                .ThenInclude(pa => pa.Attribute)
+                                                .ThenInclude(a => a.AttributeGroup)
                                             .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null)

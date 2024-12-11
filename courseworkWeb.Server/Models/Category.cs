@@ -13,11 +13,12 @@ namespace WebCoursework.Server.Models
         [ForeignKey("Parent")]
         public int? ParentId { get; set; }
 
-        // Властивість для доступу до батьківської категорії
         public Category? Parent { get; set; }
 
-        // Властивість для доступу до дочірніх категорій
         [JsonIgnore]
         public IList<Category> Subcategories { get; set; } = new List<Category>();
+
+        [JsonIgnore]
+        public IList<Attributes> Attributes { get; set; } = new List<Attributes>();
     }
 }

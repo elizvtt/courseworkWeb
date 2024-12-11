@@ -25,7 +25,10 @@ namespace courseworkWeb.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductAttribute>>> GetProductAttribute()
         {
-            return await _context.ProductAttributes.ToListAsync();
+            return await _context.ProductAttributes
+                                                .Include(pa => pa.Attribute)
+                                                    .ThenInclude(a => a.AttributeGroup)
+                                                .ToListAsync();
         }
 
         // GET: api/ProductAttributes/5

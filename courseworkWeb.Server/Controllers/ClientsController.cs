@@ -76,32 +76,49 @@ namespace courseworkWeb.Server.Controllers
             return NoContent();
         }
 
-        [HttpPut("UpdatePoints/{clientId}")]
-        public async Task<IActionResult> UpdatePoints(int clientId, int points)
-        {
-            // Находим клиента по ID
-            var client = await _context.Clients.FindAsync(clientId);
+        // [HttpPut("UpdatePoints/{clientId}")]
+        // public async Task<IActionResult> UpdatePoints(int clientId, int points)
+        // {
+        //     // Находим клиента по ID
+        //     var client = await _context.Clients.FindAsync(clientId);
             
+        //     if (client == null)
+        //     {
+        //         return NotFound("Client not found");
+        //     }
+
+        //     // Добавляем бонусные баллы
+        //     client.BonusPoints += points;
+
+        //     // Сохраняем изменения в базе данных
+        //     try
+        //     {
+        //         await _context.SaveChangesAsync();
+        //     }
+        //     catch (DbUpdateConcurrencyException)
+        //     {
+        //         return StatusCode(StatusCodes.Status500InternalServerError, "Error updating points");
+        //     }
+
+        //     return Ok(new { message = "Points successfully updated", totalPoints = client.BonusPoints });
+        // }
+        [HttpPatch("UpdatePoints/{clientId}")]
+        public async Task<IActionResult> UpdatePoints(int clientId, [FromBody] UpdatePointsRequest request)
+        {
+            var client = await _context.Clients.FindAsync(clientId);
             if (client == null)
             {
-                return NotFound("Client not found");
+                return NotFound();
             }
 
-            // Добавляем бонусные баллы
-            client.BonusPoints += points;
+            // Частично обновляем бонусные баллы
+            client.BonusPoints += request.BonusPointsChange; // Здесь бонусы прибавляются или вычитаются
+            _context.Clients.Update(client);
+            await _context.SaveChangesAsync();
 
-            // Сохраняем изменения в базе данных
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error updating points");
-            }
-
-            return Ok(new { message = "Points successfully updated", totalPoints = client.BonusPoints });
+            return Ok(client);
         }
+
 
 
         // POST: api/Clients
