@@ -213,14 +213,14 @@ function Header() {
               onMouseEnter={() => setHoveredCategoryId(category.id)}
               onMouseLeave={() => setHoveredCategoryId(null)}
             >
-              <Link to="#" onClick={() => handleCategoryClick(category.id)}>
+              <Link to={`/Products?categoryId=${category.id}`} onClick={() => handleCategoryClick(category.id)}>
                 {category.name}
               </Link>
 
               {hoveredCategoryId === category.id &&
                 categories.filter(subcategory => subcategory.parentId === category.id).map((subcategory) => (
                   <div key={subcategory.id} className="subcategory">
-                    <Link to="#" onClick={() => handleCategoryClick(subcategory.id)}>
+                    <Link to={`/Products?categoryId=${subcategory.id}`}  onClick={() => handleCategoryClick(subcategory.id)}>
                       {subcategory.name}
                     </Link>
                   </div>

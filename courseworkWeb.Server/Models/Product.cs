@@ -31,6 +31,5 @@ namespace WebCoursework.Server.Models
 
 
         public required IList<ProductAttribute> ProductAttributes { get; set; }
-        public required IList<Review> Reviews{ get; set; }
     }
 }

@@ -253,12 +253,21 @@
   width: 150px;
   height: 150px;
   border-radius: 300px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
 }
 
 .brand {
   width: 300px;
   height: 200px;
   border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.brand:hover,
+.category:hover {
+  border: 2px solid #a49e9a;
 }
 
 .top-item-name,

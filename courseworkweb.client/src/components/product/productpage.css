@@ -7,16 +7,17 @@
 .product-page-container {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .product-page-left {
   display: flex;
-  flex-direction: row;
   padding-left: 20px;
   gap: 20px;
   background-color: white;
   box-shadow: 0 4px 6px rgba(87, 87, 87, 0.18); 
   border-radius: 13px;
+  flex: 0 0 35%; 
 }
 
 .product-page-images {
@@ -104,7 +105,6 @@
   cursor: not-allowed;
 }
 
-
 .product-page-price-container {
   display: flex;
   align-items: center;
@@ -130,15 +130,60 @@
   width: 40px;
 }
 
-.product-page-extra-container {
+.product-page-feature-container {
+  display: flex;
+  flex-direction: column;
+  flex: content;
   background-color: white;
   box-shadow: 0 4px 6px rgba(87, 87, 87, 0.18); 
   border-radius: 13px;
   font-size: 24px;
-  font-weight: 800;
   color: #3e3935;  
-  padding: 20px 30px 200px 40px;
+  padding: 50px 30px 100px 40px;
 }
+
+.attribute-group {
+  margin-top: 20px;
+
+}
+
+.product-page-attributes {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.attribute-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0;
+
+  position: relative;
+}
+
+.attribute-item:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px dotted #aaa8a7b3;
+  background-size: 10px 10px;
+  background-repeat: repeat-x;
+}
+
+.attribute-name {
+  flex: 1;
+  text-align: left;
+}
+
+.attribute-value {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
 
 @media (max-width: 1460px) {
   .product-page-price-container .buy-button {
@@ -163,7 +208,7 @@
     height: 400px;
   }
 
-  .product-page-extra-container {
+  .product-page-feature-container {
     font-size: 20px;
     font-weight: 600;
     padding: 20px 30px 40px 40px;
@@ -190,7 +235,7 @@
     padding: 5px;
   }
 
-  .product-page-extra-container {
+  .product-page-feature-container {
     font-size: 20px;
     font-weight: 600;
     padding: 0px 10px 0px 15px ;
@@ -249,7 +294,7 @@
     padding: 20px 80px 20px 80px;
   }
     
-  .product-page-extra-container {
+  .product-page-feature-container {
     padding: 20px 30px 40px 40px;
   }  
 }
@@ -277,7 +322,7 @@
     padding: 5px 10px 5px 10px;
   }
     
-  .product-page-extra-container {
+  .product-page-feature-container {
     padding: 5px 5px 5px 15px;
   }  
 }

@@ -26,6 +26,7 @@ const ProductPage = () => {
       .catch((error) => console.error('Error fetching product:', error));
   }, [productId]);
 
+
   const handleAddToCart = (productId) => {
     if (!user || !user.id) {
       console.error('User is not logged in or user ID is missing.');
@@ -43,9 +44,29 @@ const ProductPage = () => {
     setCurrentImage(imageUrl);
   };
 
+  const groupAttributesByGroup = (productAttributes) => {
+    return productAttributes.reduce((groups, productAttribute) => {
+      const groupName = productAttribute.attribute.attributeGroupId;
+      if (!groups[groupName]) {
+        groups[groupName] = {
+          name: productAttribute.attribute.name, 
+          attributes: [],
+        };
+      }
+      groups[groupName].attributes.push({
+        name: productAttribute.attribute.name,
+        value: productAttribute.value,
+      });
+      return groups;
+    }, {});
+  };
+
+
   if (!product) {
     return <div>Loading</div>;
   }
+
+  const attributeGroups = groupAttributesByGroup(product.productAttributes);
 
   return (
     <div className="product-page">
@@ -111,9 +132,24 @@ const ProductPage = () => {
               Купити<img src="/bag.svg" alt="bag" className="bag-icon" />
             </button>
           </div>
-          <div className="product-page-extra-container">
-            <p>Характеристика</p>
-          </div>
+        </div>
+        <div className="product-page-feature-container">
+            <h2>Характеристика</h2>
+            {Object.keys(attributeGroups).map((groupId) => (
+              <div key={groupId} className="attribute-group">
+                <h3>{attributeGroups[groupId].name}</h3>
+                <div className="product-page-attributes">
+                  {attributeGroups[groupId].attributes.map((attribute, index) => (
+                    <div key={index} className="attribute-item">
+                      <p className="attribute-name">{attribute.name}</p>
+                      <p className="attribute-value">
+                        {attribute.value}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
         </div>
       </div>
       <ToastContainer autoClose={3000} position="top-center"/>

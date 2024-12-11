@@ -78,6 +78,15 @@ namespace courseworkWeb.Server.Controllers
         public async Task<ActionResult<AttributeGroup>> PostAttributeGroup(AttributeGroup attributeGroup)
         {
             _context.AttributeGroups.Add(attributeGroup);
+
+            if (attributeGroup.Attributes != null && attributeGroup.Attributes.Any())
+            {
+                foreach (var attribute in attributeGroup.Attributes)
+                {
+                    attribute.AttributeGroupId = attributeGroup.Id; // Синхронизация идентификатора группы
+                    _context.Attributes.Add(attribute); // Добавляем в контекст атрибуты
+                }
+            }
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetAttributeGroup", new { id = attributeGroup.Id }, attributeGroup);

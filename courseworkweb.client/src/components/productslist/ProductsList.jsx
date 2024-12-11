@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import { useUser } from '../UserContext';
 import { useCart } from '../CartContext';
 import Slider from 'rc-slider';
@@ -14,20 +14,27 @@ const ProductList = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const selectedBrandFromUrl = queryParams.get('brand');
+  const categoryId = queryParams.get('categoryId');
+  const subcategoryId = queryParams.get('subcategoryId');
 
   const [filters, setFilters] = useState({
     price: { min: 0, max: 100000 },
     name: '',
     sortBy: 'name-asc',
-    selectedBrands: selectedBrandFromUrl ? [selectedBrandFromUrl] : []
+    selectedBrands: selectedBrandFromUrl ? [selectedBrandFromUrl] : [],
+    selectedAttributes: {},
   });
 
   const [availableBrands, setAvailableBrands] = useState([]);
+  const [attributes, setAttributes] = useState([]);
+  const [productAttributes, setProductAttributes] = useState([]);
   const [appliedFilters, setAppliedFilters] = useState(filters);
+
   const notify = () => toast.success("Товар додано у кошик!");
 
   const { user} = useUser(); 
   const { addToCart } = useCart();
+  // const { categoryId } = useParams();
 
   useEffect(() => {
     fetch('http://localhost:5175/api/Products')
@@ -37,6 +44,17 @@ const ProductList = () => {
         
         const brands = Array.from(new Set(data.map((product) => product.brand))).sort();
         setAvailableBrands(brands);
+
+        const allAttributes = Array.from(new Set(data.flatMap((product) => product.productAttributes.map((prodAttr) => prodAttr.attribute.name)))).sort();
+        setAttributes(allAttributes);
+
+        const allProductAttributes = data.flatMap((product) =>
+          product.productAttributes.map((prodAttr) => ({
+            attributeName: prodAttr.attribute.name,
+            value: prodAttr.value
+          }))
+        );
+        setProductAttributes(allProductAttributes);
       })
       .catch((error) => console.error('Error fetching products:', error));
     
@@ -59,19 +77,39 @@ const ProductList = () => {
     handleAddToCart(productId);
     notify();
   };
-  
+
+  const handleAttributeChange = (attributeName, value) => {
+    setFilters((prevFilters) => {
+      const newSelectedAttributes = { ...prevFilters.selectedAttributes };
+
+      if (newSelectedAttributes[attributeName]) {
+        if (newSelectedAttributes[attributeName].includes(value)) {
+          newSelectedAttributes[attributeName] = newSelectedAttributes[attributeName].filter((v) => v !== value);
+        } else {
+          newSelectedAttributes[attributeName].push(value);
+        }
+      } else {
+        newSelectedAttributes[attributeName] = [value];
+      }
+
+      return {
+        ...prevFilters,
+        selectedAttributes: newSelectedAttributes
+      };
+    });
+  };
 
   // применение фильтра
   const handleApplyFilters = () => {
     setAppliedFilters(filters);
   };
     // Обработчик изменения фильтра
-    const handleBrandChange = (e, brand) => {
-      const updatedBrands = e.target.checked
-        ? [...filters.selectedBrands, brand]
-        : filters.selectedBrands.filter((b) => b !== brand);
-      setFilters({ ...filters, selectedBrands: updatedBrands });
-    };
+  const handleBrandChange = (e, brand) => {
+    const updatedBrands = e.target.checked
+      ? [...filters.selectedBrands, brand]
+      : filters.selectedBrands.filter((b) => b !== brand);
+    setFilters({ ...filters, selectedBrands: updatedBrands });
+  };
 
   // скасування фильтра
   const handleResetFilters = () => {
@@ -92,11 +130,36 @@ const ProductList = () => {
   // функція фільтрації
   const filteredProducts = products
     .filter((product) => {
+
+      if (categoryId) {
+        const isInCategory = product.categoryId === parseInt(categoryId);
+        const isInParentCategory = product.parentId && product.parentId === parseInt(categoryId);
+      
+        if (!isInCategory && !isInParentCategory) {
+          return false;
+        }
+      }
+  
+      if (subcategoryId) {
+        const isInSubcategory = product.subcategoryId === parseInt(subcategoryId);
+        
+        if (!isInSubcategory) {
+          console.log('Product does not belong to the selected subcategory');
+          return false;
+        }
+      }
+
       return (
         product.price >= appliedFilters.price.min &&
         product.price <= appliedFilters.price.max &&
         product.name.toLowerCase().includes(appliedFilters.name.toLowerCase()) &&
-        (appliedFilters.selectedBrands.length === 0 || appliedFilters.selectedBrands.includes(product.brand))
+        (appliedFilters.selectedBrands.length === 0 || appliedFilters.selectedBrands.includes(product.brand)) &&
+        Object.keys(appliedFilters.selectedAttributes).every((attributeName) => {
+          const selectedValues = appliedFilters.selectedAttributes[attributeName];
+          return selectedValues.length === 0 || selectedValues.some((value) =>
+            product.productAttributes.some((prodAttr) => prodAttr.attribute.name === attributeName && prodAttr.value === value)
+          );
+        })
       );
     })
     .sort((a, b) => {
@@ -221,6 +284,30 @@ const ProductList = () => {
                 {brand}
               </label>
             ))}
+          </div>
+          <h4>Характеристика</h4>
+          <div className="features-filter">
+            {attributes.map((attributeName) => {
+              const values = Array.from(
+                new Set(productAttributes.filter((attr) => attr.attributeName === attributeName).map((attr) => attr.value))
+              );
+
+              return (
+                <div key={attributeName} className="filter-attribute">
+                  <p>{attributeName}</p>
+                  {values.map((value) => (
+                    <label key={value} className="checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={filters.selectedAttributes[attributeName]?.includes(value)}
+                        onChange={() => handleAttributeChange(attributeName, value)}
+                      />
+                      {value}
+                    </label>
+                  ))}
+                </div>
+              );
+            })}
           </div>
           {/* Кнопки */}
           <div className="filter-buttons">
