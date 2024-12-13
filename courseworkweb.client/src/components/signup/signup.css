@@ -22,6 +22,11 @@
   width: 100%;
 }
 
+.text-danger {
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .form-control::placeholder {
   color: rgb(184, 183, 182);
   font-weight: 500;
@@ -65,3 +70,4 @@ a {
 a:hover {
   color: #5f5751;
 }
+

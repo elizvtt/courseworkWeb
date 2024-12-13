@@ -156,6 +156,66 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20946"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 12:06:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.f9kokgbvrh.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9kokgbvrh"},{"Name":"integrity","Value":"sha256-bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28298"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:35:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28298"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:35:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.vkonymm8uu.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vkonymm8uu"},{"Name":"integrity","Value":"sha256-0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF\u002BGeONrfJMc="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31130"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF\u002BGeONrfJMc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF\u002BGeONrfJMc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"31130"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF\u002BGeONrfJMc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"32544"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.zxmfm60w2j.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zxmfm60w2j"},{"Name":"integrity","Value":"sha256-GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32544"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.qw6z112s6r.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qw6z112s6r"},{"Name":"integrity","Value":"sha256-Ro3z\u002B\u002B7qXfLyaAE7FDcRu\u002BOKP58u5bnuWYjST7uoNgo="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20314"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Ro3z\u002B\u002B7qXfLyaAE7FDcRu\u002BOKP58u5bnuWYjST7uoNgo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ro3z\u002B\u002B7qXfLyaAE7FDcRu\u002BOKP58u5bnuWYjST7uoNgo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20314"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Ro3z\u002B\u002B7qXfLyaAE7FDcRu\u002BOKP58u5bnuWYjST7uoNgo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.ra5cia8gpj.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ra5cia8gpj"},{"Name":"integrity","Value":"sha256-LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38="},{"Name":"label","Value":"_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19840"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19840"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 22:36:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/courseworkWeb.Server/images/products/Lenovo IdeaPad 1 15AMN7.photo1.33f7xpc2di.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

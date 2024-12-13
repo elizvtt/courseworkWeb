@@ -24,6 +24,8 @@ const OrderPage = () => {
     paymentMethod: null,
   });
 
+  const [userData, setUserData] = useState(null);
+
   const [deliveryMethods, setDeliveryMethods] = useState([]);
   const [paymentMethods] = useState(['Google Pay', 'Apple Pay', 'Готівкою при отриманні']);
   const [products, setProducts] = useState([]);
@@ -36,19 +38,29 @@ const OrderPage = () => {
   const MAX_DISCOUNT = 20;
   
   useEffect(() => {
-    if (user) {
-      setOrderData({
-        ...orderData,
-        surname: user.fullName.split(' ')[0],
-        name: user.fullName.split(' ')[1],
-        middleName: user.fullName.split(' ')[2],
-        email: user.email || '',
-      });
+    if (user && user.id) {
+      fetchUserData(user.id);
     }
-    
+
     fetchDeliveryMethods();
     fetchProducts();
   }, [user]);
+
+  const fetchUserData = async (userId) => {
+    try {
+      const response = await axios.get(`http://localhost:5175/api/Clients/${userId}`);
+      setUserData(response.data); 
+      setOrderData({
+        ...orderData,
+        surname: response.data.fullName.split(' ')[0],
+        name: response.data.fullName.split(' ')[1],
+        middleName: response.data.fullName.split(' ')[2],
+        email: response.data.email || '',
+      });
+    } catch (error) {
+      console.error('Error fetching user data:', error);
+    }
+  };
 
   const updateUserBonusPoints = async () => {
     try {
@@ -104,7 +116,7 @@ const OrderPage = () => {
 
   const handleSubmitOrder = async () => {
     if (!user) {
-      alert('Please login to place an order.');
+      alert('Будь ласка зареєструйтесь для оформлення замовлення');
       return;
     }
   
@@ -152,26 +164,26 @@ const OrderPage = () => {
           await axios.patch(`http://localhost:5175/api/Clients/UpdatePoints/${user.id}`, {
             bonusPointsChange: remainingBonusPointsChange
           });
-          console.log('Бонусные баллы успешно списаны на сервере');
+          console.log('Бонуси успішно списані');
         } catch (error) {
-          console.error('Ошибка при списании бонусных баллов на сервере:', error);
+          console.error('Помилка при списанні бонусів:', error);
         }
       }
       
       // Рассчитываем дополнительные бонусные баллы
       const additionalBonusPoints = Math.floor(calculateTotalAmount() * 0.003);
-      console.log(`Дополнительные бонусные баллы за заказ: ${additionalBonusPoints}`);
+      console.log(`Бонуси за замовлення: ${additionalBonusPoints}`);
       
       try {
         await axios.patch(`http://localhost:5175/api/Clients/UpdatePoints/${user.id}`, {
           bonusPointsChange: additionalBonusPoints
         });
-        console.log('Дополнительные бонусные баллы успешно добавлены на сервере');
+        console.log('Бонуси успішно додані');
         
         await updateUserBonusPoints();
 
       } catch (error) {
-        console.error('Ошибка при добавлении бонусных баллов на сервере:', error);
+        console.error('Помилка при додаванні бонусів:', error);
       }
       
 
@@ -189,15 +201,8 @@ const OrderPage = () => {
       navigate(`/Profile/${user.id}`);
 
     } catch (error) {
-      // Логування помилок
-      console.error('Error placing order:', error.response ? error.response : error);
-      if (error.response) {
-        console.log('Validation Errors:', error.response.data.errors);
-        console.log('Response Data:', error.response.data);
-        console.log('Response Status:', error.response.status);
-        console.log('Response Headers:', error.response.headers);
-      }
-      alert('Error placing order. Please try again.');
+      console.error('Помилка:', error.response ? error.response : error);
+      alert('Помилка при оформлені замовлення. Будь ласка спробуйте ще раз.');
     }
   };
 
@@ -210,7 +215,6 @@ const OrderPage = () => {
       <h1>Оформлення замовлення</h1>
       <div className="order-page-container">
         <div className="order-form">
-          {/* Step indicator */}
           <div className="progress-bar">
             <div
               className={`step ${step === 1 ? 'active' : ''}`}

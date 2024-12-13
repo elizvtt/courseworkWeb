@@ -76,32 +76,7 @@ namespace courseworkWeb.Server.Controllers
             return NoContent();
         }
 
-        // [HttpPut("UpdatePoints/{clientId}")]
-        // public async Task<IActionResult> UpdatePoints(int clientId, int points)
-        // {
-        //     // Находим клиента по ID
-        //     var client = await _context.Clients.FindAsync(clientId);
-            
-        //     if (client == null)
-        //     {
-        //         return NotFound("Client not found");
-        //     }
-
-        //     // Добавляем бонусные баллы
-        //     client.BonusPoints += points;
-
-        //     // Сохраняем изменения в базе данных
-        //     try
-        //     {
-        //         await _context.SaveChangesAsync();
-        //     }
-        //     catch (DbUpdateConcurrencyException)
-        //     {
-        //         return StatusCode(StatusCodes.Status500InternalServerError, "Error updating points");
-        //     }
-
-        //     return Ok(new { message = "Points successfully updated", totalPoints = client.BonusPoints });
-        // }
+        
         [HttpPatch("UpdatePoints/{clientId}")]
         public async Task<IActionResult> UpdatePoints(int clientId, [FromBody] UpdatePointsRequest request)
         {
@@ -118,7 +93,6 @@ namespace courseworkWeb.Server.Controllers
 
             return Ok(client);
         }
-
 
 
         // POST: api/Clients
@@ -157,6 +131,49 @@ namespace courseworkWeb.Server.Controllers
         {
             return _context.Clients.Any(e => e.Id == id);
         }
+
+        
+        [HttpGet("CheckEmail")]
+        public async Task<IActionResult> CheckEmailExists([FromQuery] string email)
+        {
+            var user = await _context.Clients.FirstOrDefaultAsync(u => u.Email == email);
+            if (user != null)
+            {
+                return Ok(new { exists = true });
+            }
+
+            return Ok(new { exists = false });
+        }
+
+        [HttpGet("GetUserByEmail")]
+        public async Task<IActionResult> GetUserByEmail(string email)
+        {
+            try
+            {
+                // Проверяем, существует ли пользователь с таким email
+                var user = await _context.Clients
+                    .FirstOrDefaultAsync(u => u.Email == email);
+
+                if (user == null)
+                {
+                    // Если пользователь не найден, возвращаем 404
+                    return NotFound(new { message = "Користувач з такою адресою не знайден" });
+                }
+
+                // Возвращаем данные пользователя (например, email и пароль)
+                return Ok(new 
+                {
+                    user.Email,
+                    user.Password,
+                    user.Id
+                });
+            }
+            catch
+            {
+                return StatusCode(500, new { message = "Виникла помилка на сервері" });
+            }
+        }
+
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HteGKwMUDdNtV9DfLi5/PcGWXEIdwOgff2BQCJhbSG0=",
+  "Hash": "UHaLLlGUeKI+8I4dKsgN/wvYjg44Y1HVvuVV9eDEXuo=",
   "Source": "courseworkWeb.Server",
   "BasePath": "_content/courseworkWeb.Server",
   "Mode": "Default",
@@ -300,6 +300,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\Apple iPhone 16 Pro Max.photo.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9kokgbvrh",
+      "Integrity": "bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vkonymm8uu",
+      "Integrity": "0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zxmfm60w2j",
+      "Integrity": "GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qw6z112s6r",
+      "Integrity": "Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp",
+      "SourceId": "courseworkWeb.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\",
+      "BasePath": "_content/courseworkWeb.Server",
+      "RelativePath": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ra5cia8gpj",
+      "Integrity": "LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp"
     },
     {
       "Identity": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp",
@@ -1849,6 +1954,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-j1DZQIuam2SGEbWYwp8DqRQihh69rE2AFGzzDMKDN4U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.f9kokgbvrh.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9kokgbvrh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.vkonymm8uu.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vkonymm8uu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.zxmfm60w2j.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zxmfm60w2j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.qw6z112s6r.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw6z112s6r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.ra5cia8gpj.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ra5cia8gpj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp",
+      "AssetFile": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 22:36:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38="
         }
       ]
     },

@@ -13,7 +13,7 @@ export const UserProvider = ({ children }) => {
   });
 
   const [authToken, setAuthToken] = useState(() => {
-    return localStorage.getItem('auth_token'); // Извлекаем токен
+    return localStorage.getItem('auth_token');
   });
 
   useEffect(() => {

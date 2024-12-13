@@ -15,6 +15,7 @@ function Header() {
   const { user, logout } = useUser();
   const { cartItems, fetchCartItems, updateCartItem, clearCart } = useCart();
   const [hoveredCategoryId, setHoveredCategoryId] = useState(null);
+  const [fullName, setFullName] = useState(''); 
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,8 +35,25 @@ function Header() {
   useEffect(() => {
     if (user) {
       fetchCartItems(user.id);
+
+      const fetchUserDetails = async () => {
+        try {
+          const response = await fetch(`http://localhost:5175/api/Clients/${user.id}`);
+          const data = await response.json();
+          setFullName(data.fullName); // Сохраняем fullName
+        } catch (error) {
+          console.error('Error fetching user details:', error);
+        }
+      };
+
+      fetchUserDetails();
     }
   }, [user]);
+
+  useEffect(() => {
+    console.log("User", user); // Добавьте это для отладки
+  }, [user]);
+  
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -71,6 +89,7 @@ function Header() {
 
   const handleLogOut = () => {
     logout();
+    setFullName('');
     navigate('/');
   };
 
@@ -107,7 +126,8 @@ function Header() {
                   onMouseEnter={() => setIsProfileDropdownOpen(true)}
                   onMouseLeave={() => setIsProfileDropdownOpen(false)}
                 >
-                  <span className="nav-link">Вітаємо, {user?.fullName}</span>
+                  <span className="nav-link">Вітаємо, {fullName || user.fullName}</span>
+                  {/* console.log(user.fullName); */}
                   {isProfileDropdownOpen && (
                     <div className="dropdown-menu">
                       <Link className="dropdown-item" to={`/Profile/${user.id}`}>Профіль</Link>

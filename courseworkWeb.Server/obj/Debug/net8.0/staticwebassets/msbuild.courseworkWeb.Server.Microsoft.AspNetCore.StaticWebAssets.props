@@ -234,6 +234,96 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Apple iPhone 16 Pro Max.photo.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f9kokgbvrh</Fingerprint>
+      <Integrity>bT/FkfTOjJiPyHUvt/lvMP/k8OLowNHL5AUhTdj1fGY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vkonymm8uu</Fingerprint>
+      <Integrity>0UmK4LQvjfvqPbHxzfF5zBqyKYvFJKqeF+GeONrfJMc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zxmfm60w2j</Fingerprint>
+      <Integrity>GTArPBDb3GmFDlV2FuOH6fi53RPN72VEPuKtzGnTVYg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qw6z112s6r</Fingerprint>
+      <Integrity>Ro3z++7qXfLyaAE7FDcRu+OKP58u5bnuWYjST7uoNgo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>courseworkWeb.Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/courseworkWeb.Server</BasePath>
+      <RelativePath>images/products/Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ra5cia8gpj</Fingerprint>
+      <Integrity>LSBOmzEnXvaCGlXIFGXgBI7s1Y9m0pJpH5p0GeeCY38=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Lenovo IdeaPad 1 15AMN7.photo1.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>courseworkWeb.Server</SourceId>

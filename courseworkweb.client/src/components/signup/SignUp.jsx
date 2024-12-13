@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser } from '../UserContext';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "./signup.css"
 
 function Signup() {
@@ -14,33 +15,40 @@ function Signup() {
     password: '',
   });
 
-  const [error, setError] = useState('');
+  // const [error, setError] = useState('');
+  const [error, setError] = useState({
+    firstName: '',
+    lastName: '',
+    middleName: '',
+    dateBirth: '',
+    email: '',
+    phoneNumber: '',
+    password: '',
+  });
   const navigate = useNavigate();
   const { login } = useUser();
 
   useEffect(() => {
     const modalElement = document.getElementById('signupModal');
     const modal = new window.bootstrap.Modal(modalElement);
-
+  
     modal.show();
-
-    modalElement.addEventListener('hidden.bs.modal', () => {
-      navigate('/');
-    });
-
-    modalElement.addEventListener('hidden.bs.modal', () => {
+  
+    const handleModalHidden = () => {
       const backdrop = document.querySelector('.modal-backdrop');
       if (backdrop) {
         backdrop.remove();
       }
-    });
-
+      navigate('/');
+    };
+  
+    modalElement.addEventListener('hidden.bs.modal', handleModalHidden);
+  
     return () => {
-      modalElement.removeEventListener('hidden.bs.modal', () => {
-        navigate('/');
-      });
+      modalElement.removeEventListener('hidden.bs.modal', handleModalHidden);
     };
   }, [navigate]);
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,16 +59,20 @@ function Signup() {
     const errors = {};
     const phoneRegex = /^[0-9]{10}$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (!formData.firstName) {
-      errors.firstName = 'Поле "Прізвище" не може бути порожнім.';
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/;  
+  
+    const nameRegex = /^[A-Za-zА-Яа-яЁёІіЇїЄєҐґ -`]+$/;
+  
+    if (!formData.firstName || !nameRegex.test(formData.firstName)) {
+      errors.firstName = 'Поле "Прізвище" не може бути порожнім і не може містити цифри.';
     }
-    if (!formData.lastName) {
-      errors.lastName = 'Поле "Ім`я" не може бути порожнім.';
+    if (!formData.lastName || !nameRegex.test(formData.lastName)) {
+      errors.lastName = 'Поле "Ім`я" не може бути порожнім і не може містити цифри.';
     }
-    if (!formData.middleName) {
-      errors.middleName = 'Поле "По батькові" не може бути порожнім.';
+    if (!formData.middleName || !nameRegex.test(formData.middleName)) {
+      errors.middleName = 'Поле "По батькові" не може бути порожнім і не може містити цифри.';
     }
+  
     if (!formData.dateBirth) {
       errors.dateBirth = 'Поле "Дата народження" не може бути порожнім.';
     }
@@ -74,16 +86,46 @@ function Signup() {
       errors.password = 'Пароль не може бути порожнім.';
     } else if (formData.password.length < 6) {
       errors.password = 'Пароль повинен бути не менше 6 символів.';
+    } else if (!passwordRegex.test(formData.password)) {
+      errors.password = 'Пароль повинен містити великі та малі літери англійського алфавіту.';
     }
-
-    setFormErrors(errors);
-    return Object.keys(errors).length === 0;
+  
+    return errors;
   };
+  
 
+  const checkEmailExists = async (email) => {
+    try {
+      console.log(`Проверяем email: ${email}`);
+      const response = await fetch(`http://localhost:5175/api/Clients/CheckEmail?email=${email}`);
+      console.log(`Статус ответа: ${response.status}`);
+      if (!response.ok) {
+        throw new Error('Ошибка при проверке электронной почты');
+      }
+      const data = await response.json();
+      console.log(`Ответ API:`, data);
+      return data.exists;
+    } catch (error) {
+      console.error('Ошибка:', error);
+      return false;
+    }
+  };
+  
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!validateForm()) {
+      alert('Недопустимі значення');
+      return; 
+    }
+
+    const emailExists = await checkEmailExists(formData.email);
+    if (emailExists) {
+      setError(prevState => ({
+        ...prevState,
+        email: 'Ця електронна пошта вже використовується',
+      }));
       return; 
     }
 
@@ -99,15 +141,32 @@ function Signup() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(dataToSend),
+
       });
 
+      console.log('User: ', dataToSend)
+      console.log('id: ', dataToSend.id)
       if (!response.ok) {
-        throw new Error('Failed to register user');
+        throw new Error('Невдалося зареєструвати користувача');
       }
 
-      login(dataToSend);
+      // Получаем данные пользователя с id от сервера
+      const userData = await response.json();
+
+      console.log('User2: ', userData);
+      console.log('User2: ', userData.id);
+      
+      // Створюємо токен
+      const token = btoa(`${userData.email}:${userData.id}`);
+  
+      // Зберігаємо токен
+      localStorage.setItem('auth_token', token);
+  
+      // Реєструємо користувча 
+      login(userData);
 
       navigate('/');
+      // window.location.reload();
     } catch (error) {
       setError(error.message);
     }
@@ -122,7 +181,11 @@ function Signup() {
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div className="modal-body">
-            {error && <p className="text-danger">{error}</p>}
+          <div className="text-danger">
+            {Object.keys(error).map((key) =>
+              error[key] ? <div key={key}>{error[key]}</div> : null
+            )}
+          </div>          
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <input

@@ -53,6 +53,26 @@
       "PackagePath": "staticwebassets\\images\\products\\Apple iPhone 16 Pro Max.photo.webp"
     },
     {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Asus ROG Strix G17 (2023) G713PU-HX093.photo5.webp"
+    },
+    {
       "Id": "C:\\Users\\Лиза\\VSCode\\courseworkWeb\\courseworkWeb.Server\\wwwroot\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp",
       "PackagePath": "staticwebassets\\images\\products\\Lenovo IdeaPad 1 15AMN7.photo1.webp"
     },
